@@ -1,0 +1,37 @@
+.col-sm-12 {
+  display: inline-block;
+  text-align: center;
+}
+
+.card {
+  display: inline-block;
+  padding: 30px;
+  border: 1px solid $border-colour;
+  margin: 30px;
+  width: 320px;
+  height: 300px;
+  font-family: $nav-font;
+  text-align: center;
+  color: $title-colour;
+  margin-top: 400px;
+  .card-img{
+    width: 300px;
+
+  }
+  }
+  .card-text{
+    font-size: 1em;
+
+  }
+
+  p{
+    font-size: .6em;
+  }
+
+.character-btn {
+  color: #fff;
+  transition: all 0.3s;
+  top: 80px;
+  background-color: #4f8699;
+  text-decoration: none;
+}

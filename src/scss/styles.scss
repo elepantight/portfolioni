@@ -1,0 +1,14 @@
+/* General */
+@import 'partials/layout';
+@import 'partials/mixins';
+@import 'partials/variables';
+
+/* Sidor */
+@import 'partials/pages/cards';
+
+
+/* Components */
+@import 'partials/component/navigation';
+@import 'partials/component/header';
+
+@import url('https://fonts.googleapis.com/css?family=Averia+Sans+Libre|Changa+One|Francois+One|Poiret+One|Quicksand|Viga|Yatra+One&display=swap');
