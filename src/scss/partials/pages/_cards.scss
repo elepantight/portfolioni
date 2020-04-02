@@ -1,37 +1,36 @@
-.col-sm-12 {
-  display: inline-block;
-  text-align: center;
-}
 
 .card {
   display: inline-block;
-  padding: 30px;
+  padding: 10px;
   border: 1px solid $border-colour;
-  margin: 30px;
   width: 320px;
-  height: 300px;
-  font-family: $nav-font;
-  text-align: center;
-  color: $title-colour;
-  margin-top: 400px;
-  .card-img{
+  height: 280px;
+  color: $text-colour;
+  margin-left: 30px;
+
+  .card-img {
     width: 300px;
-
+    transition: transform .3s;
   }
-  }
-  .card-text{
-    font-size: 1em;
+}
+.card-img:hover{
+    transform: scale(1.9);
+}
+.card-text {
+  font-size: 1em;
+  font-family: Poiret One, cursive;
+}
 
-  }
+p {
+  font-size: 0.8em;
+}
 
-  p{
-    font-size: .6em;
-  }
-
-.character-btn {
-  color: #fff;
-  transition: all 0.3s;
-  top: 80px;
-  background-color: #4f8699;
-  text-decoration: none;
+.btn-1, .btn-2{
+  font-size: 12px;
+  border: 1px solid $bg-colour;
+  margin: 10px;
+}
+.btn:hover{
+  color: white;
+  background-color:$bg-colour ;
 }

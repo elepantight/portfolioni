@@ -5,10 +5,16 @@
 
 /* Sidor */
 @import 'partials/pages/cards';
+@import 'partials/pages/contact';
+@import 'partials/pages/portfolio';
+@import 'partials/pages/resume';
 
 
 /* Components */
 @import 'partials/component/navigation';
 @import 'partials/component/header';
+@import 'partials/component/footer';
 
-@import url('https://fonts.googleapis.com/css?family=Averia+Sans+Libre|Changa+One|Francois+One|Poiret+One|Quicksand|Viga|Yatra+One&display=swap');
+/*  bootstrap */ 
+
+@import url('https://fonts.googleapis.com/css?family=Cormorant+Garamond|Francois+One|Open+Sans+Condensed:300|Poiret+One|Quicksand&display=swap');
