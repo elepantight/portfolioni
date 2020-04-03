@@ -2,6 +2,7 @@
     text-align: center;
     font-family: $nav-font;
 
+
     a{
         padding:30px;
         font-family: $text-font;
@@ -24,4 +25,9 @@
         opacity: .8;
         letter-spacing: 2px;
     }
-    
+    .hr-footer{
+        text-align: center;
+        height: 1px;
+        width: 50%;
+        margin-top: -15px;
+    }

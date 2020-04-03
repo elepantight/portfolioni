@@ -4,7 +4,8 @@ import { NavLink} from 'react-router-dom';
 import arrow from "./../images/arrow.svg";
 const Navigation = () => {
     return (
-        <section>
+      <>
+        <section >
           <nav>
             <NavLink to="/Portfolio">
               <h3>PORTFOLIO</h3>
@@ -12,14 +13,12 @@ const Navigation = () => {
             <NavLink to="/Resume">
               <h3>RESUME</h3>
             </NavLink>
-            <NavLink to="/TestPage">
-              <h3>ABOUT ME</h3>
-            </NavLink>
             <NavLink to="/Contact">
               <h3>CONTACT</h3>
             </NavLink>
           </nav>
         </section>
+        </>
     );
     }
     export default Navigation;

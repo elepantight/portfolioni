@@ -1,9 +1,6 @@
-import React, { Component } from 'react';
-import { HEROKU_BYPASS_CORS } from './../constants/constants';
-import axios from 'axios';
-
-
-
+import React, { Component } from "react";
+import { HEROKU_BYPASS_CORS } from "./../constants/constants";
+import axios from "axios";
 
 export default class Contact extends Component {
   state = {
@@ -78,63 +75,60 @@ export default class Contact extends Component {
     } = this.state;
     return (
       <>
-      <div className="row contact-row">
-        <div className="col-sm-12 contact">
-          <form onSubmit={this.handleSubmit}>
-            <p className="contact-p">Firstname</p>
-            <input
-              type="text"
-              name="Firstname"
-              onChange={this.handleChange}
-              className="contact-form"
-            />
-            <p className={FirstnameError ? "error" : "error__hide"}>
-              {" "}
-              error{" "}
-            </p>
-            <br />
-            <p className="contact-p">Lastname</p>
-            <input
-              type="text"
-              name="Lastname"
-              onChange={this.handleChange}
-              className="contact-form"
-            />
-            <p className={LastnameError ? "error" : "error__hide"}>
-              error{" "}
-            </p>
-            <br />
-            <p className="contact-p">Email address</p>
-            <input
-              type="text"
-              name="Email"
-              onChange={this.handleChange}
-              className="contact-form"
-            />
-            <p className={EmailError ? "error" : "error__hide"}>
-              error{" "}
-            </p>
-            <br />
-            <p className="contact-p">Drop a Message</p>
-            <textarea
-              name="Message"
-              onChange={this.handleChange}
-              className="contact-form"
-            />
-            <p className={MessageError ? "error" : "error__hide"}>
-              error
-            </p>
-            <br />
-            <input
-              type="submit"
-              disabled={
-                FirstnameError || LastnameError || EmailError || MessageError
-              }
-              className="btn-contact"
-            />
-          </form>
+        <div className="row contact-row">
+          <div className="col-sm-6 contact">
+            <form onSubmit={this.handleSubmit}>
+              <p className="contact-p">Firstname</p>
+              <input
+                type="text"
+                name="Firstname"
+                onChange={this.handleChange}
+                className="contact-form"
+              />
+              <p className={FirstnameError ? "error" : "error__hide"}>
+                {" "}
+                error{" "}
+              </p>
+              <br />
+              <p className="contact-p">Lastname</p>
+              <input
+                type="text"
+                name="Lastname"
+                onChange={this.handleChange}
+                className="contact-form"
+              />
+              <p className={LastnameError ? "error" : "error__hide"}>error </p>
+              <br />
+              <div className="col-sm-6 contact">
+              <p className="contact-p">Email address</p>
+              <input
+                type="text"
+                name="Email"
+                onChange={this.handleChange}
+                className="contact-mail"
+              />
+              <p className={EmailError ? "error" : "error__hide"}>error </p>
+              <br />
+              <p className="contact-p">Drop a Message</p>
+              <textarea
+                name="Message"
+                onChange={this.handleChange}
+                className="contact-mail"
+              />
+              <p className={MessageError ? "error" : "error__hide"}>error</p>
+              <br />
+              <input
+                type="submit"
+                disabled={
+                  FirstnameError || LastnameError || EmailError || MessageError
+                }
+                className="btn-contact"
+              />
+                      </div>
+            </form>
+          </div>
         </div>
-      </div>
+
       </>
     );
   }

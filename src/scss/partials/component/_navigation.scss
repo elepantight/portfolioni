@@ -8,10 +8,10 @@ nav{
     display:inline-block;
     margin: 20px;
     text-decoration: none;
-    font-size: .7em;
-    color:$nav-colour;
-    font-family: $nav-font;
-    font-weight: 100;
+    font-size: 14px;
+    color:$heading-colour;
+    font-family: $text-font;
+    letter-spacing: 2px;
     }
 }
 a:hover {
@@ -22,3 +22,5 @@ a:hover {
 .scroll-arrow{
     width: 50px;
 }
+
+

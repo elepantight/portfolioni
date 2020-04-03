@@ -1,44 +1,48 @@
 .contact-row {
   margin-bottom: 150px;
-  background-color: $bg-colour;
-  text-align: center;
   
 }
 .contact{
   background-color: white;
+  display: inline-block;
+
   
-  
-}
-.contact-header {
-  margin-top: 0px;
-  color: black;
-  font-family: $nav-font;
-  font-size: 5em;
   
 }
 .contact-p {
-  font-size: 18px;
+  margin-top: 40px;
+  font-size: 1.2em;
+  font-family:$text-font;
+  
   
 }
 .contact-form {
-margin-left: 350px;
-  font-family: $nav-font;
+  padding: 0px;
+  margin-top: 40px;
+  font-family:$text-font;
   font-size: 20px;
-  color: black;
+  color: white;
   height: 30px;
+  
+}
+.contact-mail{
+  font-family:$text-font;
+  font-size: 20px;
+  color: white;
+  height: 30px;
+
 }
 input,
 textarea {
+  width: 300px;
   background: $bg-colour;
   border: none;
-  
+  opacity: .5;
 }
-
 .error {
-  color: $title-colour;
-  display: inline-block;
+  color: $text-colour-orange;
+  opacity: .2;
   font-size: 10px;
-  margin-left: 400px;
   &__border {
     border: 1px solid red;
   }
