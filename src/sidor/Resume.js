@@ -144,7 +144,7 @@ function ResumeComponent() {
           </div>
         </div>
         <div className="col-sm-6 skola">
-        <h1 className="info-text-edu">Work Experience</h1>
+          <h1 className="info-text-work">Work Experience</h1>
           <div className="jobb">
             {jobb.map((jobben, i) => (
               <WORK index={i} jobben={jobben} toggleWORK={toggleWORK} />

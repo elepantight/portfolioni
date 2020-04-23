@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { Link } from "react-scroll";
 
 export default class Portfolio extends Component {
   render() {
@@ -17,8 +18,22 @@ export default class Portfolio extends Component {
               />
 
               <p>Semester Project. Board Game made with JavaScript</p>
-              <button className="btn btn-1">View Code</button>
-              <button className="btn btn-2">View Live</button>
+              <a
+                href="https://xd.adobe.com/view/43024c38-6a75-4a4e-6937-ce95fba0cf0d-3533/grid"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="btn btn-1"
+              >
+                View Code
+              </a>
+              <a
+                href="https://xd.adobe.com/view/43024c38-6a75-4a4e-6937-ce95fba0cf0d-3533/grid"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="btn btn-2"
+              >
+                View Live
+              </a>
             </div>
             <div className="card">
               <h1 className="card-text">Homefair Website</h1>
@@ -28,8 +43,22 @@ export default class Portfolio extends Component {
                 alt="img"
               />
               <p>Semester Project. Webpage made with HTML/CSS</p>
-              <button className="btn btn-1">View Code</button>
-              <button className="btn btn-2">View Live</button>
+              <a
+                href="https://xd.adobe.com/view/43024c38-6a75-4a4e-6937-ce95fba0cf0d-3533/grid"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="btn btn-1"
+                >
+                  View Code
+              </a>
+              <a
+                href="https://xd.adobe.com/view/43024c38-6a75-4a4e-6937-ce95fba0cf0d-3533/grid"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="btn btn-2"
+              >
+                View Live
+              </a>
             </div>
             <div className="card">
               <h1 className="card-text">Besseggen Webpage</h1>
@@ -39,8 +68,22 @@ export default class Portfolio extends Component {
                 alt="img"
               />
               <p>Semester Project. Webpage made with HTML/CSS</p>
-              <button className="btn btn-1">View Code</button>
-              <button className="btn btn-2">View Live</button>
+              <a
+                href="https://xd.adobe.com/view/43024c38-6a75-4a4e-6937-ce95fba0cf0d-3533/grid"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="btn btn-1"
+                >
+                  View Code
+              </a>
+              <a
+                href="https://xd.adobe.com/view/43024c38-6a75-4a4e-6937-ce95fba0cf0d-3533/grid"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="btn btn-2"
+              >
+                View Live
+              </a>
             </div>
             <div className="row card-row-2">
               <div className="card">
@@ -53,8 +96,22 @@ export default class Portfolio extends Component {
                 />
 
                 <p>Semester Project. Webpage made with HTML/CSS</p>
-                <button className="btn btn-1">View Code</button>
-                <button className="btn btn-2">View Live</button>
+                <a
+                  href="https://xd.adobe.com/view/43024c38-6a75-4a4e-6937-ce95fba0cf0d-3533/grid"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="btn btn-1"
+                  >
+                    View Code
+                </a>
+                <a
+                  href="https://xd.adobe.com/view/43024c38-6a75-4a4e-6937-ce95fba0cf0d-3533/grid"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="btn btn-2"
+                >
+                  View Live
+                </a>
               </div>
               <div className="card">
                 <h1 className="card-text">Rick And Morty API App</h1>
@@ -64,8 +121,22 @@ export default class Portfolio extends Component {
                   alt="img"
                 />
                 <p>Semester Project. Webpage made with React</p>
-                <button className="btn btn-1">View Code</button>
-                <button className="btn btn-2">View Live</button>
+                <a
+                  href="https://xd.adobe.com/view/43024c38-6a75-4a4e-6937-ce95fba0cf0d-3533/grid"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="btn btn-1"
+                  >
+                    View Code
+                </a>
+                <a
+                  href="https://xd.adobe.com/view/43024c38-6a75-4a4e-6937-ce95fba0cf0d-3533/grid"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="btn btn-2"
+                >
+                  View Live
+                </a>
               </div>
               <div className="card">
                 <h1 className="card-text">Video Game API App</h1>
@@ -75,8 +146,22 @@ export default class Portfolio extends Component {
                   alt="img"
                 />
                 <p>Semester Project. Webpage made in React</p>
-                <button className="btn btn-1">View Code</button>
-                <button className="btn btn-2">View Live</button>
+                <a
+                  href="https://xd.adobe.com/view/43024c38-6a75-4a4e-6937-ce95fba0cf0d-3533/grid"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="btn btn-1"
+                  >
+                    View Code
+                </a>
+                <a
+                  href="https://xd.adobe.com/view/43024c38-6a75-4a4e-6937-ce95fba0cf0d-3533/grid"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="btn btn-2"
+                >
+                  View Live
+                </a>
               </div>
             </div>
           </div>
@@ -92,7 +177,14 @@ export default class Portfolio extends Component {
                 alt="img"
               />
               <p>School Project. Prototype created in Adobe XD</p>
-              <button className="btn btn-2">View Live</button>
+              <a
+                href="https://xd.adobe.com/view/43024c38-6a75-4a4e-6937-ce95fba0cf0d-3533/grid"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="btn btn-2"
+              >
+                View Live
+              </a>
             </div>
             <div className="card">
               <h1 className="card-text">Sportif Unlimited Prototype</h1>
@@ -102,7 +194,14 @@ export default class Portfolio extends Component {
                 alt="img"
               />
               <p>Semester Project. Prototype created in Adobe XD</p>
-              <button className="btn btn-2">View Live</button>
+              <a
+                href="https://xd.adobe.com/view/43024c38-6a75-4a4e-6937-ce95fba0cf0d-3533/grid"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="btn btn-2"
+              >
+                View Live
+              </a>
             </div>
             <div className="card">
               <h1 className="card-text">Besseggen Arkitekter Prototype</h1>
@@ -112,7 +211,14 @@ export default class Portfolio extends Component {
                 alt="img"
               />
               <p>Semester Project. Prototype created in Adobe XD</p>
-              <button className="btn btn-2">View Live</button>
+              <a
+                href="https://xd.adobe.com/view/43024c38-6a75-4a4e-6937-ce95fba0cf0d-3533/grid"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="btn btn-2"
+              >
+                View Live
+              </a>
             </div>
             <div className="row card-row-4">
               <div className="card">
@@ -123,7 +229,14 @@ export default class Portfolio extends Component {
                   alt="img"
                 />
                 <p>Side Project. Prototype created in Adobe XD</p>
-                <button className="btn btn-2">View Live</button>
+                <a
+                  href="https://xd.adobe.com/view/43024c38-6a75-4a4e-6937-ce95fba0cf0d-3533/grid"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="btn btn-2"
+                >
+                  View Live
+                </a>
               </div>
               <div className="card">
                 <h1 className="card-text">My Portfolio Prototype</h1>
@@ -133,7 +246,14 @@ export default class Portfolio extends Component {
                   alt="img"
                 />
                 <p>Semester Project. Prototype created in Adobe XD</p>
-                <button className="btn btn-2">View Live</button>
+                <a
+                  href="https://xd.adobe.com/view/43024c38-6a75-4a4e-6937-ce95fba0cf0d-3533/grid"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="btn btn-2"
+                >
+                  View Live
+                </a>
               </div>
             </div>
           </div>

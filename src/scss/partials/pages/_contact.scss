@@ -1,47 +1,59 @@
-.contact-row {
-  margin-bottom: 150px;
-  
+.contact-row{
+  background: url("./../../../images/trappa.svg")no-repeat;
+  margin: -8px;
 }
-.contact{
+.contact {
   background-color: white;
-  display: inline-block;
-
-  
-  
 }
 .contact-p {
-  margin-top: 40px;
   font-size: 1.2em;
-  font-family:$text-font;
-  
+  font-family: $text-font;
+}
+.contact-1{
+  position: relative;
+  top: 10px;
+  left: -410px;
+}
+.contact-2{
+  position: relative;
+  top: 10px;
+  left: -210px;
+}
+.contact-3{
+  position: relative;
+  top: 10px;
+  left: -10px;
+}
+.contact-4{
+  position: relative;
+  top: 10px;
+  left: 210px;
+}
+.contact-form{
+  font-family: $text-font;
+  font-size: 20px;
+  color: $text-colour;
   
 }
-.contact-form {
-  padding: 0px;
-  margin-top: 40px;
-  font-family:$text-font;
+.contact-mail {
+  font-family: $text-font;
   font-size: 20px;
-  color: white;
+  color: $text-colour;
   height: 30px;
-  
-}
-.contact-mail{
-  font-family:$text-font;
-  font-size: 20px;
-  color: white;
-  height: 30px;
-
+  margin-left: 200px;
 }
 input,
 textarea {
-  width: 300px;
-  background: $bg-colour;
-  border: none;
-  opacity: .5;
+  background-color: transparent;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1px solid black;
 }
 .error {
+  margin-left: 10px;
   color: $text-colour-orange;
-  opacity: .2;
+  opacity: 0.2;
   font-size: 10px;
   &__border {
     border: 1px solid red;
@@ -51,13 +63,45 @@ textarea {
   }
 }
 .btn-contact {
+  position: absolute;
+  opacity: .3;
+  background-color: #cc5500;
   font-family: $button-font;
   color: black;
   width: 220px;
   height: 50px;
-  margin-top: 50px;
-  margin-bottom: 50px;
+  top: 70px;
+  margin-left: 200px;
 }
 .btn-contact:hover {
   opacity: 50%;
 }
+
+    /* mobile */ 
+
+  @media (max-width: 600px) {
+ .contact-1{
+   position: relative;
+   left: -20px;
+ }
+ .contact-2{
+   position: relative;
+   left: -20px;
+ }
+ .contact-3{
+   position: relative;
+   left: -20px;
+ }
+ .contact-4{
+   position: relative;
+   left: -20px;
+ }
+ .contact-row{
+   background: none;
+ }
+ .btn-contact{
+ position: relative;
+ left: -100px;
+ top: 20px;
+ }
+    }

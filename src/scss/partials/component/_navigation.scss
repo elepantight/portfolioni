@@ -1,8 +1,6 @@
 
 nav{
-    margin-left: 300px;
     text-align: center;
-    width: 750px;
     a{
     text-align: center;
     display:inline-block;
@@ -19,8 +17,13 @@ a:hover {
 }
 
 
-.scroll-arrow{
-    width: 50px;
-}
 
 
+/*  mobile */ 
+
+@media (max-width: 600px) {
+    nav {
+      display: inline-block;
+      margin-left: 50px;
+    }
+  }

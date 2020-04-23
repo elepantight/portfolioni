@@ -11,10 +11,10 @@ export default class Contact extends Component {
     FirstnameError: true,
     LastnameError: true,
     EmailError: true,
-    MessageError: true
+    MessageError: true,
   };
 
-  handleChange = input => {
+  handleChange = (input) => {
     let name = input.target.name;
     let value = input.target.value;
     let emailPattern = /^([A-Za-z0-9_\-\.])+\@([A-Za-z0-9_\-\.])+\.([A-Za-z]{2,4})$/;
@@ -44,11 +44,11 @@ export default class Contact extends Component {
         break;
     }
     this.setState({
-      [name]: value
+      [name]: value,
     });
   };
 
-  handleSubmit = event => {
+  handleSubmit = (event) => {
     event.preventDefault();
     const { Firstname, Surname, Email, Message } = this.state;
     axios
@@ -56,12 +56,12 @@ export default class Contact extends Component {
         Name: Firstname,
         Surname: Surname,
         Email: Email,
-        Message: Message
+        Message: Message,
       })
-      .then(result => {
+      .then((result) => {
         console.log(result);
       })
-      .catch(err => {
+      .catch((err) => {
         console.log(err);
       });
   };
@@ -71,64 +71,80 @@ export default class Contact extends Component {
       FirstnameError,
       LastnameError,
       EmailError,
-      MessageError
+      MessageError,
     } = this.state;
     return (
       <>
         <div className="row contact-row">
           <div className="col-sm-6 contact">
             <form onSubmit={this.handleSubmit}>
-              <p className="contact-p">Firstname</p>
-              <input
-                type="text"
-                name="Firstname"
-                onChange={this.handleChange}
-                className="contact-form"
-              />
-              <p className={FirstnameError ? "error" : "error__hide"}>
-                {" "}
-                error{" "}
-              </p>
+              <div className="contact-1">
+                <p className="contact-p">Firstname</p>
+                <input
+                  type="text"
+                  name="Firstname"
+                  onChange={this.handleChange}
+                  className="contact-form"
+                />
+                <p className={FirstnameError ? "error" : "error__hide"}>
+                  {" "}
+                  error{" "}
+                </p>
+              </div>
               <br />
-              <p className="contact-p">Lastname</p>
-              <input
-                type="text"
-                name="Lastname"
-                onChange={this.handleChange}
-                className="contact-form"
-              />
-              <p className={LastnameError ? "error" : "error__hide"}>error </p>
+
+              <div className="contact-2">
+                <p className="contact-p">Lastname</p>
+                <input
+                  type="text"
+                  name="Lastname"
+                  onChange={this.handleChange}
+                  className="contact-form"
+                />
+                <p className={LastnameError ? "error" : "error__hide"}>
+                  error{" "}
+                </p>
+              </div>
               <br />
               <div className="col-sm-6 contact">
-              <p className="contact-p">Email address</p>
-              <input
-                type="text"
-                name="Email"
-                onChange={this.handleChange}
-                className="contact-mail"
-              />
-              <p className={EmailError ? "error" : "error__hide"}>error </p>
-              <br />
-              <p className="contact-p">Drop a Message</p>
-              <textarea
-                name="Message"
-                onChange={this.handleChange}
-                className="contact-mail"
-              />
-              <p className={MessageError ? "error" : "error__hide"}>error</p>
-              <br />
-              <input
-                type="submit"
-                disabled={
-                  FirstnameError || LastnameError || EmailError || MessageError
-                }
-                className="btn-contact"
-              />
-                      </div>
+                <div className="contact-3">
+                  <p className="contact-p">Email address</p>
+                  <input
+                    type="text"
+                    name="Email"
+                    onChange={this.handleChange}
+                    className="contact-form"
+                  />
+                  <p className={EmailError ? "error" : "error__hide"}>error </p>
+                </div>
+                <br />
+                <div className="contact-4">
+                  <p className="contact-p">Drop a Message</p>
+
+                  <textarea
+                    name="Message"
+                    onChange={this.handleChange}
+                    className="contact-form"
+                  />
+                  <p className={MessageError ? "error" : "error__hide"}>
+                    error
+                  </p>
+                  <br />
+                  <input
+                    type="submit"
+                    disabled={
+                      FirstnameError ||
+                      LastnameError ||
+                      EmailError ||
+                      MessageError
+                    }
+                    className="btn-contact"
+                  />
+                </div>
+              </div>
             </form>
           </div>
         </div>
-
       </>
     );
   }

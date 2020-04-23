@@ -3,10 +3,18 @@
 <svg version="1.1" id="Lager_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 width="500px" height="500px" viewBox="0 0 500 500" style="enable-background:new 0 0 500 500;" xml:space="preserve">
 <style type="text/css">
-	.st0{fill:none;stroke:#000000;stroke-miterlimit:10;}
+	.st0{fill:#989DA6;}
+	.st1{fill:#313639;}
+	.st2{fill:#8F949B;}
+	.st3{fill:none;stroke:#313639;stroke-miterlimit:10;}
 </style>
-<path class="st0" d="M324.9,333.1c0,0-21.3-19-48.4-43.3c-15.1,0-174.8,0-197.3,0C55.6,316.4,37.2,337,37.2,337"/>
-<polyline class="st0" points="243.6,248.6 115.2,248.6 180.8,176.4 242.5,248.4 "/>
-<polyline class="st0" points="343.8,332.4 343.8,259 471,259 471,333.8 "/>
-<polyline class="st0" points="348.5,175.6 348.5,216 469.7,216 469.7,179.6 "/>
+<polygon class="st0" points="297.2,344.1 351.1,310.4 355.4,397.8 303.4,374.9 "/>
+<polygon class="st1" points="81.5,381.6 127.6,409.8 127.6,308.2 179.1,335.5 179.9,437.2 239,470.6 305,427.4 302.6,340.6 
+	349.2,317.4 355,397.9 408.3,358.7 393.2,95 235.2,21.7 177.6,50.5 180,94 138.4,74.7 79.3,109 "/>
+<polygon class="st1" points="127.6,409.8 180.6,381 179.1,335.5 126,309.7 "/>
+<polygon class="st0" points="177.6,50.7 342.9,131.6 347.6,230.1 301.5,249.5 298.9,158.2 180,94 "/>
+<polygon class="st2" points="300.2,206.6 347.6,230.1 346.5,230.5 300.3,208.9 "/>
+<polygon class="st0" points="79.3,110.1 236.7,191.5 238.9,470.7 180,437.4 179.1,337 126,309.7 128,410 81.5,382.1 "/>
+<polygon class="st3" points="127.6,205.2 127.6,230.9 162.4,247.6 162.4,223.3 "/>
+<polygon class="st1" points="127.6,205.2 127.6,230.9 158.8,221 "/>
 </svg>

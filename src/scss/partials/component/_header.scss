@@ -2,29 +2,30 @@
   text-align: center;
   width: 350px;
   position: absolute;
-  top: 10%;
+  top: 25%;
   left: 38%;
   border-radius: 50%;
 }
 
 
-.header-text {
-  padding: 200px;
-  text-align: center;
-  font-size: 1em;
-  font-family: $text-font;
-  color: $text-colour;
-  padding-bottom: 300px;
-
-}
 
 .h1-text{
   text-align: center;
-  position: absolute;
-  left: 35%;
-  top: 40%;
-  font-size: 4em;
-  font-family:$main-font;
+  font-size: 1em;
+  font-family:$text-font;
   color:$heading-colour;
+  padding-top: 420px;
+  padding-bottom: 100px;
 
+}
+
+
+/*  mobile */ 
+
+@media (max-width: 600px) {
+  .header-img {
+    text-align: center;
+    margin-left: -100px;
+    width: 300px;
+  }
 }
