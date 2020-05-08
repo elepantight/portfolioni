@@ -11,6 +11,8 @@ hr {
   padding: 0;
 }
 
+
+
 .col-sm-6 {
   text-align: center;
   display: inline-block;
@@ -58,12 +60,19 @@ hr {
   text-align: center;
 }
 
-
-.info-text-work,
+.info-text-work{
+  background-color: white;
+  color: $text-colour;
+  font-family: $text-font;
+  width: 300px;
+  position: relative;
+  top: -120px;
+  left: 700px;
+}
 .info-text-edu {
   width: 300px;
   position: relative;
-  left: 30px;
+  left: 120px;
   top: -60px;
   background-color: white;
   color: $text-colour;
@@ -85,10 +94,16 @@ hr {
   }
   .skola{
     margin-left: -100px;
-  }
-  .info-text-work, .info-text-edu{
+  }.info-text-edu{
     text-align: center;
     margin-top: 100px;
+    margin-left: -100px;
+  }
+  .info-text-work{
+    position: relative;
+    left: 30px;
+    top: 500px;
+
   }
   .jobb{
     margin: 40px;

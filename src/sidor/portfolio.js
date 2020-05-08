@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import { Link } from "react-scroll";
 
 export default class Portfolio extends Component {
   render() {
@@ -246,6 +245,23 @@ export default class Portfolio extends Component {
                   alt="img"
                 />
                 <p>Semester Project. Prototype created in Adobe XD</p>
+                <a
+                  href="https://xd.adobe.com/view/43024c38-6a75-4a4e-6937-ce95fba0cf0d-3533/grid"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="btn btn-2"
+                >
+                  View Live
+                </a>
+              </div>
+              <div className="card">
+                <h1 className="card-text">My Portfolio Prototype</h1>
+                <img
+                  className="card-img"
+                  src={require("./../images/bergenlodge.PNG")}
+                  alt="img"
+                />
+                <p>Exam Project. Prototype created in Adobe XD</p>
                 <a
                   href="https://xd.adobe.com/view/43024c38-6a75-4a4e-6937-ce95fba0cf0d-3533/grid"
                   target="_blank"

@@ -1,7 +1,5 @@
 import React from "react";
 import { NavLink} from 'react-router-dom';
-// import { Link, animateScroll as scroll } from "react-scroll";
-import arrow from "./../images/arrow.svg";
 const Navigation = () => {
     return (
       <>
