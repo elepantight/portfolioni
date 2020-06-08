@@ -1,9 +1,11 @@
 .studie {
+  position: relative;
+  left: 5%;
   width: 100%;
   max-width: 600px;
   margin-top: 50px;
   text-align: center;
-  padding-right: 50px;
+  padding-right: 5px;
 }
 .studie .studier {
   background-color: white;
@@ -11,7 +13,7 @@
 
 // utbildning //
 
-.studie .studier  .edu-question {
+.studie .studier .edu-question {
   padding: 10px;
   position: relative;
   color: $text-colour;
@@ -23,7 +25,7 @@
   transition: all 0.6s ease-in-out;
 }
 
-.studie .studier  .edu-question::after {
+.studie .studier .edu-question::after {
   content: "";
   position: absolute;
   top: 50%;
@@ -60,4 +62,3 @@
   opacity: 1;
 }
 
-// about //

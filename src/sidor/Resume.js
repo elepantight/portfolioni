@@ -135,21 +135,22 @@ function ResumeComponent() {
           />
         </div>
         <hr className="hr-edu"></hr>
-         <h1 className="info-text-edu">Education</h1>
-         <h1 className="info-text-work">Work Experience</h1>
+        <h1 className="info-text-edu">Education</h1>
+        <h1 className="info-text-work">Work Experience</h1>
+
         <div className="work-edu-container">
-        <div className="col-sm-6 utbildning">
-          <div className="studie">
-            {studie.map((studier, i) => (
-              <EDU index={i} studier={studier} toggleEDU={toggleEDU} />
-            ))}
+          <div className="col-sm-6 utbildning">
+            <div className="studie">
+              {studie.map((studier, i) => (
+                <EDU index={i} studier={studier} toggleEDU={toggleEDU} />
+              ))}
+            </div>
           </div>
-        </div>
-          <div className="col-sm-6 skola">
-          <div className="jobb">
-            {jobb.map((jobben, i) => (
-              <WORK index={i} jobben={jobben} toggleWORK={toggleWORK} />
-            ))}
+          <div className="col-sm-6 work-exp">
+            <div className="jobb">
+              {jobb.map((jobben, i) => (
+                <WORK index={i} jobben={jobben} toggleWORK={toggleWORK} />
+              ))}
             </div>
           </div>
         </div>

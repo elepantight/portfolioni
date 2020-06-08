@@ -9,10 +9,13 @@ const Navigation = () => {
               <h3>PORTFOLIO</h3>
             </NavLink>
             <NavLink to="/Resume">
-              <h3>RESUME</h3>
+              <h3>RESUMÉ</h3>
             </NavLink>
             <NavLink to="/Contact">
               <h3>CONTACT</h3>
+            </NavLink>
+            <NavLink to="/Gallery">
+              <h3>GALLERY</h3>
             </NavLink>
           </nav>
         </section>

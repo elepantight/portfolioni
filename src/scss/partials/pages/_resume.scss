@@ -3,7 +3,7 @@ hr {
   background-color: $bg-colour;
   border: none;
 }
-.hr-edu{
+.hr-edu {
   margin-top: 200px;
 }
 .container {
@@ -11,14 +11,11 @@ hr {
   padding: 0;
 }
 
-
-
-.col-sm-6 {
+.utblidning {
   text-align: center;
   display: inline-block;
-  
-
 }
+
 
 .profil {
   height: 200px;
@@ -60,7 +57,7 @@ hr {
   text-align: center;
 }
 
-.info-text-work{
+.info-text-work {
   background-color: white;
   color: $text-colour;
   font-family: $text-font;
@@ -79,11 +76,10 @@ hr {
   font-family: $text-font;
 }
 
-
-/*  mobile */ 
+/*  mobile */
 
 @media (max-width: 600px) {
-  .about{
+  .about {
     margin-top: 100px;
   }
   .about-text {
@@ -92,27 +88,26 @@ hr {
     margin-right: 0px;
     padding-bottom: 50px;
   }
-  .skola{
+  .skola {
     margin-left: -100px;
-  }.info-text-edu{
+  }
+  .info-text-edu {
     text-align: center;
     margin-top: 100px;
     margin-left: -100px;
   }
-  .info-text-work{
+  .info-text-work {
     position: relative;
     left: 30px;
     top: 500px;
-
   }
-  .jobb{
+  .jobb {
     margin: 40px;
   }
-  .resume-img{
+  .resume-img {
     margin-top: 40px;
     position: absolute;
     left: 25%;
     top: 50px;
   }
-
 }

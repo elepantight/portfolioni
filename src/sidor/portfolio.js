@@ -255,10 +255,10 @@ export default class Portfolio extends Component {
                 </a>
               </div>
               <div className="card">
-                <h1 className="card-text">My Portfolio Prototype</h1>
+                <h1 className="card-text">Bergen Lodge Hotel Agency</h1>
                 <img
                   className="card-img"
-                  src={require("./../images/bergenlodge.PNG")}
+                  src={require("./../images/bergenlodge.jpg")}
                   alt="img"
                 />
                 <p>Exam Project. Prototype created in Adobe XD</p>
