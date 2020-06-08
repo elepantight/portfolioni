@@ -1,10 +1,16 @@
 import React from "react";
 import { NavLink} from 'react-router-dom';
+import { RiArrowGoBackLine } from "react-icons/ri";
+
+
 const Navigation = () => {
     return (
       <>
         <section >
           <nav>
+          <NavLink to="/">
+              <RiArrowGoBackLine />
+            </NavLink>
             <NavLink to="/Portfolio">
               <h3>PORTFOLIO</h3>
             </NavLink>

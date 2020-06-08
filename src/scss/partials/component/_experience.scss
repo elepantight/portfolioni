@@ -1,0 +1,129 @@
+// EDUCATION
+
+.studie {
+  position: relative;
+  left: 5%;
+  width: 100%;
+  max-width: 600px;
+  margin-top: 50px;
+  text-align: center;
+}
+.studie .studier {
+  background-color: white;
+}
+
+.studie .studier .edu-question {
+  padding: 10px;
+  position: relative;
+  color: $text-colour;
+  font-family: $text-font;
+  text-decoration: underline;
+
+  font-size: 1.2em;
+
+  transition: all 0.6s ease-in-out;
+  cursor: pointer;
+}
+
+.studie .studier .edu-question::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: -40px;
+  transform: translateY(-50%);
+  width: 30px;
+  height: 30px;
+
+  background: url("../../../images/arrowright.svg");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+
+  transition: all 0.6s ease-out;
+}
+.studie .studier .edu-answer {
+  color: $text-colour;
+  font-family: $text-font;
+  opacity: 0;
+  max-height: 0;
+  overflow-y: hidden;
+  transition: all 0.6s round($number: 6);
+}
+
+.studie .studier.open .edu-question {
+  margin-bottom: 15px;
+}
+
+.studie .studier.open .edu-question::after {
+  transform: translateY(-50%) rotate(90deg);
+}
+.studie .studier.open .edu-answer {
+  max-height: 1000px;
+  opacity: 1;
+}
+
+// WORK
+
+.jobb {
+  position: relative;
+  top: -380px;
+  left: 55%;
+  width: 100%;
+  max-width: 600px;
+  margin-top: 50px;
+  text-align: center;
+}
+.jobb .jobben {
+  background-color: white;
+}
+
+.jobb .jobben .work-question {
+  padding: 10px;
+  position: relative;
+  color: $text-colour;
+  font-family: $text-font;
+  text-decoration: underline;
+
+  font-size: 1.2em;
+  padding-right: 80px;
+
+  transition: all 0.6s ease-in-out;
+  cursor: pointer;
+}
+
+.jobb .jobben .work-question::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 10px;
+  transform: translateY(-50%);
+  width: 30px;
+  height: 30px;
+
+  background: url("../../../images/arrowright.svg");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+
+  transition: all 0.6s ease-out;
+}
+.jobb .jobben .work-answer {
+  color: $text-colour;
+  font-family: $text-font;
+  opacity: 0;
+  max-height: 0;
+  overflow-y: hidden;
+  transition: all 0.6s round($number: 6);
+}
+
+.jobb .jobben.open .work-question {
+  margin-bottom: 15px;
+}
+
+.jobb .jobben.open .work-question::after {
+  transform: translateY(-50%) rotate(90deg);
+}
+.jobb .jobben.open .work-answer {
+  max-height: 1000px;
+  opacity: 1;
+}

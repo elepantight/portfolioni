@@ -7,7 +7,6 @@ export default class Portfolio extends Component {
         <section>
           <div className="row card-row-1">
             <div className="img-card">
-
               <img
                 className="images"
                 src={require("./../images/ftp.jpg")}
@@ -30,7 +29,6 @@ export default class Portfolio extends Component {
             </div>
             <div className="row card-row-2">
               <div className="img-card">
-
                 <img
                   className="images"
                   src={require("./../images/mumin.jpg")}

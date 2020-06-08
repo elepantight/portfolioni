@@ -79,12 +79,12 @@ export default class Contact extends Component {
           <div className="col-sm-6 contact">
             <form onSubmit={this.handleSubmit}>
               <div className="contact-1">
-                <p className="contact-p">Firstname</p>
                 <input
                   type="text"
                   name="Firstname"
                   onChange={this.handleChange}
                   className="contact-form"
+                  placeholder="Firstname"
                 />
                 <p className={FirstnameError ? "error" : "error__hide"}>
                   {" "}
@@ -94,12 +94,12 @@ export default class Contact extends Component {
               <br />
 
               <div className="contact-2">
-                <p className="contact-p">Lastname</p>
                 <input
                   type="text"
                   name="Lastname"
                   onChange={this.handleChange}
                   className="contact-form"
+                  placeholder="Lastname"
                 />
                 <p className={LastnameError ? "error" : "error__hide"}>
                   error{" "}
@@ -108,29 +108,30 @@ export default class Contact extends Component {
               <br />
               <div className="col-sm-6 contact">
                 <div className="contact-3">
-                  <p className="contact-p">Email address</p>
                   <input
                     type="text"
                     name="Email"
                     onChange={this.handleChange}
                     className="contact-form"
+                    placeholder="Email"
                   />
                   <p className={EmailError ? "error" : "error__hide"}>error </p>
                 </div>
                 <br />
                 <div className="contact-4">
-                  <p className="contact-p">Drop a Message</p>
 
                   <textarea
                     name="Message"
                     onChange={this.handleChange}
                     className="contact-form"
+                    placeholder="Drop a Message"
                   />
                   <p className={MessageError ? "error" : "error__hide"}>
                     error
                   </p>
                   <br />
                   <input
+                    value="Send"
                     type="submit"
                     disabled={
                       FirstnameError ||

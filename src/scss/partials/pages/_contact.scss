@@ -1,34 +1,8 @@
-.contact-row{
-  background: url("./../../../images/trappa.svg")no-repeat;
-  margin: -8px;
-}
+
 .contact {
   background-color: white;
 }
-.contact-p {
-  font-size: 1.2em;
-  font-family: $text-font;
-}
-.contact-1{
-  position: relative;
-  top: 10px;
-  left: -410px;
-}
-.contact-2{
-  position: relative;
-  top: 10px;
-  left: -210px;
-}
-.contact-3{
-  position: relative;
-  top: 10px;
-  left: -10px;
-}
-.contact-4{
-  position: relative;
-  top: 10px;
-  left: 210px;
-}
+
 .contact-form{
   font-family: $text-font;
   font-size: 20px;
@@ -63,15 +37,12 @@ textarea {
   }
 }
 .btn-contact {
-  position: absolute;
   opacity: .3;
   background-color: #cc5500;
   font-family: $button-font;
   color: black;
   width: 220px;
   height: 50px;
-  top: 70px;
-  margin-left: 200px;
 }
 .btn-contact:hover {
   opacity: 50%;
