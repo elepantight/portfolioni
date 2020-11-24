@@ -3,104 +3,117 @@ import React, { Component } from "react";
 export default class Portfolio extends Component {
   render() {
     return (
-      <div>
-        <section>
-          <div className="row card-row-1">
+      <>
+        <div className="img-column">
+          {" "}
+          <div className="card-row-1">
             <div className="img-card">
               <img
                 className="images"
-                src={require("./../images/ftp.jpg")}
+                src={require("./../images/Oliver.svg")}
                 alt="img"
               />
             </div>
             <div className="img-card">
               <img
                 className="images"
-                src={require("./../images/guzz.jpg")}
+                src={require("./../images/viva-logo.svg")}
                 alt="img"
               />
             </div>
             <div className="img-card">
               <img
                 className="images"
-                src={require("./../images/2d.svg")}
+                src={require("./../images/blacKnWhite.svg")}
                 alt="img"
               />
             </div>
-            <div className="row card-row-2">
+            <div className="card-row-2">
               <div className="img-card">
                 <img
                   className="images"
-                  src={require("./../images/mumin.jpg")}
+                  src={require("./../images/dudes.svg")}
                   alt="img"
                 />
               </div>
               <div className="img-card">
                 <img
                   className="images"
-                  src={require("./../images/Elonmusk.jpg")}
+                  src={require("./../images/2d.svg")}
                   alt="img"
                 />
               </div>
               <div className="img-card">
                 <img
                   className="images"
-                  src={require("./../images/trikk.jpg")}
-                  alt="img"
-                />
-              </div>
-            </div>
-          </div>
-        </section>
-        <section>
-          <div className="row card-row-3">
-            <div className="img-card">
-              <img
-                className="images"
-                src={require("./../images/bageriet.png")}
-                alt="img"
-              />
-            </div>
-            <div className="img-card">
-              <img
-                className="images"
-                src={require("./../images/hands.png")}
-                alt="img"
-              />
-            </div>
-            <div className="img-card">
-              <img
-                className="images"
-                src={require("./../images/dudes.jpg")}
-                alt="img"
-              />
-            </div>
-            <div className="row card-row-4">
-              <div className="img-card">
-                <img
-                  className="images"
-                  src={require("./../images/2DarthMaulRasta.jpg")}
-                  alt="img"
-                />
-              </div>
-              <div className="img-card">
-                <img
-                  className="images"
-                  src={require("./../images/unknown.png")}
-                  alt="img"
-                />
-              </div>
-              <div className="img-card">
-                <img
-                  className="images"
-                  src={require("./../images/viva-logo.jpg")}
+                  src={require("./../images/mumin.svg")}
                   alt="img"
                 />
               </div>
             </div>
           </div>
-        </section>
-      </div>
+          <div className="card-row-3">
+            <div className="img-card">
+              <img
+                className="images"
+                src={require("./../images/dragonfly.svg")}
+                alt="img"
+              />
+            </div>
+            <div className="img-card">
+              <img
+                className="images"
+                src={require("./../images/guzz.svg")}
+                alt="img"
+              />
+            </div>
+            <div className="img-card">
+              <img
+                className="images"
+                src={require("./../images/ftp.svg")}
+                alt="img"
+              />
+            </div>
+            <div className="card-row-4">
+              <div className="img-card">
+                <img
+                  className="images"
+                  src={require("./../images/locked.svg")}
+                  alt="img"
+                />
+              </div>
+              <div className="img-card">
+                <img
+                  className="images"
+                  src={require("./../images/Elonmusk.svg")}
+                  alt="img"
+                />
+              </div>
+              <div className="img-card">
+                <img
+                  className="images"
+                  src={require("./../images/trikk.svg")}
+                  alt="img"
+                />
+              </div>
+              <div className="img-card">
+                <img
+                  className="images"
+                  src={require("./../images/background.svg")}
+                  alt="img"
+                />
+              </div>
+              <div className="img-card">
+                <img
+                  className="images"
+                  src={require("./../images/background-2.svg")}
+                  alt="img"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </>
     );
   }
 }

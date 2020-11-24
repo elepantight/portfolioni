@@ -1,20 +1,18 @@
-import React from 'react'
-
-
-
+import React from "react";
 
 function Header() {
-    return (
-      <header>
-        <img
+  return (
+    <header>
+      <img
         className="header-img"
         src={require("./../images/logo1.svg")}
         alt="img"
-          />
-          <h1 className="h1-text">FrontEnd Developer. Likes Design</h1>
-
-      </header>
-    )
+      />
+      <div className="header-text">
+        <h1>FrontEnd Developer. Likes Design.</h1>
+      </div>
+    </header>
+  );
 }
 
-export default Header
+export default Header;

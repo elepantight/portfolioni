@@ -1,4 +1,5 @@
+import axios from 'axios';
 
-// Bypass CORS
-
-export const HEROKU_BYPASS_CORS = 'https://cors-anywhere.herokuapp.com/';
+export default axios.create({
+    baseURL: "https://www.coingecko.com/api/v3",
+});

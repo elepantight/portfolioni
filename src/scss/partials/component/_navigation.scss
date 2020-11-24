@@ -10,6 +10,8 @@ nav{
     color:$heading-colour;
     font-family: $text-font;
     letter-spacing: 2px;
+
+    
     }
 }
 a:hover {
@@ -21,9 +23,13 @@ a:hover {
 
 /*  mobile */ 
 
-@media (max-width: 600px) {
+@media (max-width: 768px) {
     nav {
-      display: inline-block;
-      margin-left: 50px;
+      margin-left: -10px;
+      margin-top: 10px;
+      margin-bottom: 30px;
+      a{
+        margin: 5px;
+      }
     }
   }
