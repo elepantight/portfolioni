@@ -1,0 +1,43 @@
+.footer-class {
+  text-align: center;
+  font-family: $nav-font;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+
+  a {
+    padding: 30px;
+    font-family: $text-font;
+    text-decoration: none;
+    font-size: 2em;
+  }
+}
+
+.footer-grid ul li a,
+.footer-grid ul li {
+  background-color: rgba($color: #fff, $alpha: 0.5);
+  display: inline-block;
+  color: $text-colour;
+  font-size: 14px;
+  letter-spacing: 2px;
+  list-style: none;
+}
+
+.footer-grid ul li a:hover {
+  opacity: 0.8;
+  letter-spacing: 2px;
+  background: $hover-colour;
+}
+
+/* mobile */
+@media (max-width: 768px) {
+  .footer-class {
+    text-align: center;
+    margin-left: -10px;
+    margin-bottom: 20px;
+    a{
+        padding: 10px;
+    }
+  }
+}
