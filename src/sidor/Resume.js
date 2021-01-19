@@ -31,7 +31,7 @@ const Resume = () => {
           <p className="date">2017-Present</p>
           <div className="content-resume">
             <h2 className="title-resume">
-              Kitchen Chief | Jensens Bøfhus
+              Kitchen Worker | Jensens Bøfhus
               <p>
                 {" "}
               </p>
@@ -44,7 +44,7 @@ const Resume = () => {
             <h2 className="title-resume">
               Warehouse Employee | Coca Cola
               <p>
-                Inbound and Outbound. Pick and deliver parts for vending machines.  {" "}
+                Inbound and Outbound. Pick and deliver parts for vending machines. Spareparts  {" "}
               </p>
             </h2>
           </div>

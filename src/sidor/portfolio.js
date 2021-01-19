@@ -32,15 +32,7 @@ export default class Portfolio extends Component {
                 rel="noopener noreferrer"
                 className="btn btn-1"
               >
-                View Code
-              </a>
-              <a
-                href="https://github.com/elepantight/homefair"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="btn btn-2"
-              >
-                View Live
+                Github
               </a>
             </div>
           </div>
@@ -65,15 +57,7 @@ export default class Portfolio extends Component {
                 rel="noopener noreferrer"
                 className="btn btn-1"
               >
-                View Code
-              </a>
-              <a
-                href="https://xd.adobe.com/view/43024c38-6a75-4a4e-6937-ce95fba0cf0d-3533/grid"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="btn btn-2"
-              >
-                View Live
+                Github
               </a>
             </div>
           </div>
@@ -98,15 +82,15 @@ export default class Portfolio extends Component {
                 rel="noopener noreferrer"
                 className="btn btn-1"
               >
-                View Code
+                Github
               </a>
               <a
-                href="https://xd.adobe.com/view/43024c38-6a75-4a4e-6937-ce95fba0cf0d-3533/grid"
+                href="https://xd.adobe.com/view/b151078a-3966-4df6-6644-02f7a6c773a2-c760/?fullscreen"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn btn-2"
               >
-                View Live
+                Prototype
               </a>
             </div>
           </div>
@@ -131,15 +115,7 @@ export default class Portfolio extends Component {
                 rel="noopener noreferrer"
                 className="btn btn-1"
               >
-                View Code
-              </a>
-              <a
-                href="https://xd.adobe.com/view/bbfae16d-d6cb-4f7c-6f20-4760f2325f30-cdcb/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="btn btn-2"
-              >
-                View Live
+               Github
               </a>
             </div>
           </div>
@@ -164,15 +140,7 @@ export default class Portfolio extends Component {
                 rel="noopener noreferrer"
                 className="btn btn-1"
               >
-                View Code
-              </a>
-              <a
-                href="https://github.com/elepantight/homefair"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="btn btn-2"
-              >
-                View Live
+                Github
               </a>
             </div>
           </div>
@@ -197,15 +165,7 @@ export default class Portfolio extends Component {
                 rel="noopener noreferrer"
                 className="btn btn-1"
               >
-                View Code
-              </a>
-              <a
-                href="https://xd.adobe.com/view/43024c38-6a75-4a4e-6937-ce95fba0cf0d-3533/grid"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="btn btn-2"
-              >
-                View Live
+                Github
               </a>
             </div>
           </div>
@@ -224,12 +184,12 @@ export default class Portfolio extends Component {
               <h3>Adobe Xd</h3>
               <p>Semester Project. Prototype for a cold-brew company.</p>
               <a
-                href="https://xd.adobe.com/view/43024c38-6a75-4a4e-6937-ce95fba0cf0d-3533/grid"
+                href="https://xd.adobe.com/view/43024c38-6a75-4a4e-6937-ce95fba0cf0d-3533/?fullscreen"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn btn-2"
               >
-                View Live
+                Desktop
               </a>
             </div>
           </div>
@@ -248,12 +208,20 @@ export default class Portfolio extends Component {
               <h3>Adobe Xd</h3>
               <p>Semester Project. Prototype for Sportif Unlimited</p>
               <a
-                href="https://xd.adobe.com/view/bbfae16d-d6cb-4f7c-6f20-4760f2325f30-cdcb/"
+                href="https://xd.adobe.com/view/fdceab97-6af8-4a2a-663b-cbde1bb10848-8bff/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="btn btn-1"
+              >
+                Mobile
+              </a>
+              <a
+                href="https://xd.adobe.com/view/bbfae16d-d6cb-4f7c-6f20-4760f2325f30-cdcb/?fullscreen"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn btn-2"
               >
-                View Live
+                Desktop
               </a>
             </div>
           </div>
@@ -277,7 +245,7 @@ export default class Portfolio extends Component {
                 rel="noopener noreferrer"
                 className="btn btn-2"
               >
-                View Live
+                Desktop
               </a>
             </div>
           </div>
@@ -301,7 +269,7 @@ export default class Portfolio extends Component {
                 rel="noopener noreferrer"
                 className="btn btn-2"
               >
-                View Live
+                Desktop
               </a>
             </div>
           </div>
@@ -325,7 +293,7 @@ export default class Portfolio extends Component {
                 rel="noopener noreferrer"
                 className="btn btn-2"
               >
-                View Live
+                Desktop
               </a>
             </div>
           </div>
@@ -344,12 +312,12 @@ export default class Portfolio extends Component {
               <h3>Adobe Xd</h3>
               <p>Semester Project. Prototype for hotel agency</p>
               <a
-                href="https://xd.adobe.com/view/11fefd2c-93fb-4d0b-5647-53de37d6d793-67cf/screen/5660cf59-4e29-4342-9e70-33b122891a83?fullscreen"
+                href="https://xd.adobe.com/view/11fefd2c-93fb-4d0b-5647-53de37d6d793-67cf/screen/1b2680fa-b9ed-41c5-ac4e-617db9e2815e?fullscreen"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn btn-2"
               >
-                View Live
+                Desktop
               </a>
             </div>
           </div>
@@ -373,7 +341,7 @@ export default class Portfolio extends Component {
                 rel="noopener noreferrer"
                 className="btn btn-2"
               >
-                View Live
+                Desktop
               </a>
             </div>
           </div>

@@ -27,7 +27,7 @@ export default function ContactUs() {
   return (
     <section>
       <div styles={{ backgroundImage: `url(${background})` }}></div>
-      <div className="contact-form" onSubmit={sendEmail}>                  
+      <div className="contact-form" onSubmit={sendEmail}>
         <form action="index.html">
           <h3 className="title">Contact</h3>
           <div className="input-container">
@@ -38,7 +38,7 @@ export default function ContactUs() {
               placeholder="Name"
             />
             <label htmlFor=""></label>
-            <span>Username</span>
+            <span></span>
           </div>
           <div className="input-container">
             <input
@@ -48,7 +48,7 @@ export default function ContactUs() {
               placeholder="Email"
             />
             <label htmlFor=""></label>
-            <span>Email</span>
+            <span></span>
           </div>
 
           <div className="input-container textarea">
@@ -58,7 +58,7 @@ export default function ContactUs() {
               placeholder="Message"
             ></textarea>
             <label htmlFor=""></label>
-            <span>Message</span>
+            <span></span>
           </div>
           <input type="submit" value="Send" className="btn btn-3" />
         </form>

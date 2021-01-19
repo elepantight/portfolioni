@@ -3,11 +3,11 @@
   font-family: $nav-font;
   justify-content: center;
   align-items: center;
-  padding-top: 10px;
+  padding-top: 20px;
   padding-bottom: 10px;
 
   a {
-    padding: 30px;
+    padding: 20px;
     font-family: $text-font;
     text-decoration: none;
     font-size: 2em;
@@ -27,7 +27,7 @@
 .footer-grid ul li a:hover {
   opacity: 0.8;
   letter-spacing: 2px;
-  background: $hover-colour;
+  background: #70c1bf;
 }
 
 /* mobile */

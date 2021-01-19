@@ -13,6 +13,7 @@
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
     "axios": "^0.19.2",
+    "browser-sync": "^2.26.13",
     "emailjs-com": "^2.6.3",
     "font-awesome": "^4.7.0",
     "node-sass": "^4.13.1",
@@ -47,6 +48,8 @@
     ]
   },
   "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-imagemin": "^7.1.0",
     "terser": "^3.14.1"
   }
 }

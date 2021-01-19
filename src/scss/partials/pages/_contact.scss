@@ -53,7 +53,7 @@ form {
 }
 
 .title {
-  color: $text-colour-orange;
+  color: #263238;
   font-weight: 500;
   font-size: 2.5rem;
   line-height: 1;
@@ -72,7 +72,7 @@ form {
   border-bottom: 2px solid #fafafa;
   background: none;
   padding: 0.6rem 1.2rem;
-  color: #c50;
+  color: #263238;
   font-weight: 500;
   font-size: .7em;
   letter-spacing: 0.5px;
@@ -114,9 +114,8 @@ textarea.input {
   left: 500px;
   padding: 0.6rem 1.3rem;
   background-color: #fff;
-  border: 2px solid #fafafa;
+  border: 1px solid $bg-colour;
   font-size: 0.95rem;
-  color: #FEBA4F;
   line-height: 1;
   border-radius: 25px;
   outline: none;
@@ -125,10 +124,8 @@ textarea.input {
   margin: 0;
 }
 
-.btn:hover {
-  background-color: #F0F6F7FF;
-  color: white;
-}
+
+
 
 .input-container span {
   position: absolute;

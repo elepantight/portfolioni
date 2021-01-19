@@ -7,6 +7,20 @@ export default class Portfolio extends Component {
         <div className="img-column">
           {" "}
           <div className="card-row-1">
+          <div className="img-card">
+              <img
+                className="images"
+                src={require("./../images/gunman.svg")}
+                alt="img"
+              />
+            </div>
+            <div className="img-card">
+              <img
+                className="images"
+                src={require("./../images/samuraj.svg")}
+                alt="img"
+              />
+            </div>
             <div className="img-card">
               <img
                 className="images"
