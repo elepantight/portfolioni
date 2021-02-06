@@ -3,16 +3,19 @@ import React from "react";
 function Header() {
   return (
     <header id="no-copy">
-      <img
-        className="header-img"
-        src={require("./../images/logogrey_test2.svg")}
-        alt="img"
-      />
-      <img
-        className="logo-img"
-        src={require("./../images/text.svg")}
-        alt="img"
-      />
+     <div className="container container_header">
+       <div className="row row_header">
+         <div className="primary_title">
+           <span className="block"></span>
+           <h1>Arvid Hallberg<span></span></h1>
+         </div>
+         <div className="second_title">
+           <div className="block"></div>
+             <h4>FRONTEND <br></br>LIKES DESIGN.</h4>
+
+         </div>
+       </div>
+     </div>
 
 
     </header>

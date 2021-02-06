@@ -26,7 +26,6 @@
 }
 
 .contact-form {
-  background-color: $bg-light-colour;
   position: relative;
   width: 700px;
   box-shadow: 0 20px 50px rgba(0, 0, 0, 0.2);
@@ -39,7 +38,6 @@
   position: absolute;
   width: 46px;
   height: 46px;
-  background-color: $bg-light-colour;
   transform: rotate(45deg);
   top: 35px;
   left: -23px;
@@ -147,7 +145,6 @@ textarea.input {
   opacity: 0;
   transition: 0.3s;
   height: 5px;
-  background-color: $heading-colour;
   top: 50%;
   transform: translateY(-50%);
 }
@@ -193,7 +190,6 @@ textarea {
 }
 .error {
   margin-left: 10px;
-  color: $text-colour-orange;
   opacity: 0.2;
   font-size: 10px;
   &__border {

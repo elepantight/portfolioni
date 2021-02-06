@@ -6,6 +6,7 @@
 }
 
 body{
+  background-color: #eaf4fd;
     /* background-image: url("./../../../src/images/3dbackground.svg");
     background-size: cover;
     /* background: 
@@ -53,11 +54,7 @@ section{
   }
 
 
-  .circle {
-    border-radius: 50%;
-    background: linear-gradient(135deg, transparent 10%, #e5e4e2);
-    position: absolute;
-  }
+
 /* Mobile */ 
 
 @media screen and(min-width: 768px) {
