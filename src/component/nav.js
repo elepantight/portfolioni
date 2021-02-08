@@ -20,6 +20,7 @@ function Navigation() {
           />
         </Link>
       </div>
+
       <nav className={sidebar ? "nav-menu active" : "nav-menu"}>
         <ul className="nav-menu_items" onClick={showSidebar}>
           <li className="navbar-toggle">
@@ -40,10 +41,30 @@ function Navigation() {
               </li>
             );
           })}
+          <Link to="#" className="menu-bars">
+            <img
+              className="twitter-icon"
+              src={require("./../images/twitter.svg")}
+              alt="img"
+            />
+          </Link>
+          <Link to="#" className="menu-bars">
+            <img
+              className="github-icon"
+              src={require("./../images/github.svg")}
+              alt="img"
+            />
+          </Link>
+          <Link to="#" className="menu-bars">
+            <img
+              className="insta-icon"
+              src={require("./../images/instagram.svg")}
+              alt="img"
+            />
+          </Link>
         </ul>
       </nav>
     </>
   );
 }
 export default Navigation;
-
