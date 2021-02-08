@@ -132,3 +132,21 @@ text-decoration: none;
   top: 125px;
   width: 30%;
 }
+
+@media only screen 
+and (min-width : 1824px) {
+   .github-icon, .twitter-icon {
+    top: 11em;
+    justify-content: center;
+    align-items: center;
+
+}
+}
+@media only screen 
+and (min-width : 1824px) {
+  .insta-icon{
+    top: 8.7em;
+    justify-content: center;
+    align-items: center
+  }
+}
