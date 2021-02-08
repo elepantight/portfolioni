@@ -267,15 +267,14 @@
   position: relative;
   left: 850px;
   padding-bottom: 100px;
-  animation: planetSlide;
-  animation-duration: 6s;
-  animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1) forwards;
+  animation: planetSlide 3s cubic-bezier(.24,.92,.52,.85) forwards;
 }
 @keyframes planetSlide {
   0% {
     width: 0%;
     right: 0;
   }
+
   100% {
     width: 90;
     right: 100%;
