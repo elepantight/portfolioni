@@ -11,7 +11,7 @@ import Gallery from './sidor/Gallery';
 import App from './App';
 
 
-import Footer from './component/footer';
+// import Footer from './component/footer';
 
 import 'font-awesome/css/font-awesome.min.css';
 

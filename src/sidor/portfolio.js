@@ -16,7 +16,7 @@ export default class Portfolio extends Component {
     <div>Prototypes</div>
   </div>
 </div>
-      <div className="row">
+      <div className="row row-card">
         
         {" "}
         {/* container */}

@@ -6,7 +6,7 @@ function Header() {
       <div className="horizontal"></div>
       <div className="vertical"></div>
      <div className="container container_header">
-       <div className="row row_header">
+       <div className="row_header">
          <div className="primary_title">
            <span className="block"></span>
            <h1 className="text_name">Arvid Hallberg<span></span></h1>
