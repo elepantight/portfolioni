@@ -2,6 +2,8 @@ import React from "react";
 import emailjs from "emailjs-com";
 import background from "./../images/background.svg";
 
+import TypeWriterEffect from "react-typewriter-effect";
+
 export default function ContactUs() {
   function sendEmail(e) {
     e.preventDefault();
@@ -29,7 +31,21 @@ export default function ContactUs() {
       <div styles={{ backgroundImage: `url(${background})` }}></div>
       <div className="contact-form" onSubmit={sendEmail}>
         <form action="index.html">
-          <h3 className="title">Contact</h3>
+          <TypeWriterEffect
+            textStyle={{
+              frontFamily: "$second-font",
+              color: "#0d3e69",
+              fontSize: "1em",
+            }}
+            startDelay={100}
+            cursorColor="#197acf"
+            multiText={[
+              "Enter your contact details bellow.",
+              "Validated with mailchimp",
+            ]}
+            typeSpeed={100}
+            hideCursorAfterText={true}
+          />
           <div className="input-container">
             <input
               type="text"

@@ -4,18 +4,26 @@ export default class Portfolio extends Component {
   render() {
     return (
       /* should change row with container and css */
-
+     <div className="header-box">
+<div class="animated-title">
+  <div class="text-top">
+    <div>
+      <span>Recent</span>
+      <span>Projects&</span>
+    </div>
+  </div>
+  <div class="text-bottom">
+    <div>Prototypes</div>
+  </div>
+</div>
       <div className="row">
+        
         {" "}
         {/* container */}
         <div className="container">
           {" "}
           {/*row */}
           <div className="card">
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
             <div className="content">
               <h2>Game Of Thrones Board Game</h2>
               <img
@@ -37,10 +45,6 @@ export default class Portfolio extends Component {
             </div>
           </div>
           <div className="card">
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
             <div className="content">
               <h2>HomeFair Website</h2>
               <img
@@ -62,10 +66,6 @@ export default class Portfolio extends Component {
             </div>
           </div>
           <div className="card">
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
             <div className="content">
               <h2>Besseggen Arkitekter</h2>
               <img
@@ -84,21 +84,9 @@ export default class Portfolio extends Component {
               >
                 Github
               </a>
-              <a
-                href="https://xd.adobe.com/view/b151078a-3966-4df6-6644-02f7a6c773a2-c760/?fullscreen"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="btn btn-2"
-              >
-                Prototype
-              </a>
             </div>
           </div>
           <div className="card">
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
             <div className="content">
               <h2>Sportif Unlimited</h2>
               <img
@@ -120,10 +108,6 @@ export default class Portfolio extends Component {
             </div>
           </div>
           <div className="card">
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
             <div className="content">
               <h2>Rick and Morty API</h2>
               <img
@@ -145,10 +129,6 @@ export default class Portfolio extends Component {
             </div>
           </div>
           <div className="card">
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
             <div className="content">
               <h2>Game App </h2>
               <img
@@ -170,10 +150,6 @@ export default class Portfolio extends Component {
             </div>
           </div>
           <div className="card">
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
             <div className="content">
               <h2>Prototype Cool Beanz</h2>
               <img
@@ -194,10 +170,6 @@ export default class Portfolio extends Component {
             </div>
           </div>
           <div className="card">
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
             <div className="content">
               <h2>Sportif Unlimited</h2>
               <img
@@ -207,14 +179,7 @@ export default class Portfolio extends Component {
               />
               <h3>Adobe Xd</h3>
               <p>Semester Project. Prototype for Sportif Unlimited</p>
-              <a
-                href="https://xd.adobe.com/view/fdceab97-6af8-4a2a-663b-cbde1bb10848-8bff/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="btn btn-1"
-              >
-                Mobile
-              </a>
+
               <a
                 href="https://xd.adobe.com/view/bbfae16d-d6cb-4f7c-6f20-4760f2325f30-cdcb/?fullscreen"
                 target="_blank"
@@ -226,10 +191,6 @@ export default class Portfolio extends Component {
             </div>
           </div>
           <div className="card">
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
             <div className="content">
               <h2>Besseggen Arkitekter</h2>
               <img
@@ -250,10 +211,6 @@ export default class Portfolio extends Component {
             </div>
           </div>
           <div className="card">
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
             <div className="content">
               <h2>Viva Sativa Movement</h2>
               <img
@@ -274,10 +231,6 @@ export default class Portfolio extends Component {
             </div>
           </div>
           <div className="card">
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
             <div className="content">
               <h2>My Portfolio</h2>
               <img
@@ -298,10 +251,6 @@ export default class Portfolio extends Component {
             </div>
           </div>
           <div className="card">
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
             <div className="content">
               <h2>Bergen Lodge</h2>
               <img
@@ -322,10 +271,6 @@ export default class Portfolio extends Component {
             </div>
           </div>
           <div className="card">
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
             <div className="content">
               <h2>Trä och Miljö</h2>
               <img
@@ -346,6 +291,7 @@ export default class Portfolio extends Component {
             </div>
           </div>
         </div>
+      </div>
       </div>
     );
   }

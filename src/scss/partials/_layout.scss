@@ -6,16 +6,10 @@
 }
 
 body{
-  background-color: #eaf4fd;
-    /* background-image: url("./../../../src/images/3dbackground.svg");
-    background-size: cover;
-    /* background: 
-    linear-gradient(90deg,#e5e4e2,transparent),
-    repeating-linear-gradient(90deg,rgb(218, 214, 202) 0%,rgb(218, 214, 202) 7%, transparent 7%, transparent 14%, rgb(218, 214, 202) 14%, rgb(218, 214, 202) 15%,transparent 15%, transparent 20%),
-    repeating-linear-gradient(-90deg, rgba(218, 214, 202, 1) 0%,rgba(218, 214, 202, 1) 5%,transparent 0%, transparent 10%);
-*/
-
+  background-color: #f3f4f4;
 }
+
+
 #no-copy {
     user-select: none;
   }
@@ -40,7 +34,10 @@ section{
 .img-card{
     display: inline-block;
 }
-
+.background-img{
+  margin-left: 280px;
+  max-width: 60%;
+}
 
 .images{
     width: 350px;

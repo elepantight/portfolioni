@@ -1,15 +1,62 @@
-import React from "react";
-import { NavLink } from "react-router-dom";
+import React, { useState } from "react";
+import { Link } from "react-router-dom";
 
-const Navigation = () => {
+import { SidebarData } from "./sideBarData";
+
+function Navigation() {
+  const [sidebar, setSidebar] = useState(false);
+
+  const showSidebar = () => setSidebar(!sidebar);
+
   return (
     <>
+      <div className="navbar">
+        <Link to="#" className="menu-bars">
+          <img
+            className="menu_img"
+            src={require("./../images/MENY.svg")}
+            alt="img"
+            onClick={showSidebar}
+          />
+        </Link>
+      </div>
+      <nav className={sidebar ? "nav-menu active" : "nav-menu"}>
+        <ul className="nav-menu_items" onClick={showSidebar}>
+          <li className="navbar-toggle">
+            <Link to="#" className="menu-bars">
+              <img
+                className="menu_img"
+                src={require("./../images/MENYX.svg")}
+                alt="img"
+              />
+            </Link>
+          </li>
+          {SidebarData.map((item, index) => {
+            return (
+              <li key={index} className={item.cName}>
+                <Link to={item.path}>
+                  <span className="menu-span">{item.title}</span>
+                </Link>
+              </li>
+            );
+          })}
+        </ul>
+      </nav>
+    </>
+  );
+}
+export default Navigation;
+
+{
+  /*     <>
       <section>
         <nav>
           <div className="hamburger">
-            <div className="line"></div>
-            <div className="line"></div>
-            <div className="line"></div>
+          <img
+                className="menu_img"
+                src={require("./../images/MENY.svg")}
+                alt="img"
+              />
           </div>
           <NavLink to="/">
             <h3>HOMEPAGE</h3>
@@ -28,7 +75,5 @@ const Navigation = () => {
           </NavLink>
         </nav>
       </section>
-    </>
-  );
-};
-export default Navigation;
+</> */
+}

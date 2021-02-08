@@ -1,13 +1,88 @@
+.menu_img {
+  width: 80px;
+  margin-top: 20px;
+}
 
+.navbar {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.menu-bars {
+  margin-left: 2rem;
+  font-size: 2rem;
+  background: none;
+
+}
+
+.nav-menu {
+  background-color: $shadow-blue;
+  width: 150px;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  left: -100%;
+  transition: 850ms;
+}
+
+.nav-menu.active {
+  left: 0;
+  transition: 250ms;
+}
+
+.nav-text {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  padding: 8px 10px 8px 16px;
+  list-style: none;
+  height: 60px;
+}
+
+.nav-text a {
+  text-decoration: none;
+  font-family: $text-font;
+  color: $primary-blue;
+  font-size: 18px;
+  width: 95%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding: 10 16px;
+  border-radius: 30px;
+}
+
+.nav-text a:hover {
+  background-color: $font-blue;
+}
+
+.navbar-toggle {
+  background-color: $shadow-blue;
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.menu-span {
+  margin-left: 16px;
+}
+
+/*
 nav{
     text-align: center;
     margin-bottom: 110px;
+    font-family: $second-font;
     a{
     display:inline-block;
     margin: 20px;
     text-decoration: none;
     font-size: 14px;
-    font-family: $text-font;
+    font-weight: 200;
     letter-spacing: 2px;
     color: $font-blue;
 
@@ -32,17 +107,17 @@ nav a:hover::after {
 
 
 
+*/
 
-
-/*  mobile */ 
+/*  mobile */
 
 @media (max-width: 768px) {
-    nav {
-      margin-left: -10px;
-      margin-top: 10px;
-      margin-bottom: 30px;
-      a{
-        margin: 5px;
-      }
+  nav {
+    margin-left: -10px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    a {
+      margin: 5px;
     }
   }
+}

@@ -1,6 +1,5 @@
 .footer-class {
   text-align: center;
-  font-family: $primary-font;
   justify-content: center;
   align-items: center;
   padding-top: 20px;
@@ -8,7 +7,6 @@
 
   a {
     padding: 20px;
-    font-family: $text-font;
     text-decoration: none;
     font-size: 2em;
   }
@@ -22,12 +20,14 @@
   font-size: 14px;
   letter-spacing: 2px;
   list-style: none;
+  font-family: $second-font;
 }
 
 .footer-grid ul li a:hover {
-  opacity: 0.8;
+  opacity: 0.4;
   letter-spacing: 2px;
-  background: #70c1bf;
+  background: $shadow-blue;
+  color: $dark-blue;
 }
 
 /* mobile */

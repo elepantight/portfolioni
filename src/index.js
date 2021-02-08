@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
+import Navigation from './component/nav';
 import Frontpage from './sidor/Frontpage';
 import Portfolio from './sidor/portfolio';
 import Resume from './sidor/Resume';
@@ -18,6 +19,7 @@ import 'font-awesome/css/font-awesome.min.css';
 
 ReactDOM.render(
     <Router>
+      <Navigation />
       <App>
         <Switch> 
         <Route path='/' exact component={Frontpage} />
@@ -26,7 +28,7 @@ ReactDOM.render(
         <Route path='/contact' component={Contact} />
         <Route path="/gallery" component={Gallery} />
         </Switch>
-        <Footer />
+         {/*<Footer /> */}
       </App>
     </Router>,
     

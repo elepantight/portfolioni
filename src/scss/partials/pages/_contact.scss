@@ -1,28 +1,31 @@
-
-.contact-form{
-  
+.contact-form {
+  background-color: #c3cdd7;
   font-family: $text-font;
   font-size: 2em;
   color: $text-colour;
   margin-top: 10vh;
   margin-bottom: 10vh;
-  clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 75% 75%, 75% 100%, 50% 75%, 0% 75%);
-  
-  
+  clip-path: polygon(
+    0% 0%,
+    100% 0%,
+    100% 75%,
+    75% 75%,
+    75% 100%,
+    50% 75%,
+    0% 75%
+  );
 }
 
 .form {
-  
   width: 100%;
   max-width: 820px;
   background-color: green;
   border-radius: 10px;
-  
+
   z-index: 1000;
   overflow: hidden;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-
 }
 
 .contact-form {
@@ -30,8 +33,6 @@
   width: 700px;
   box-shadow: 0 20px 50px rgba(0, 0, 0, 0.2);
 }
-
-
 
 .contact-form:before {
   content: "";
@@ -72,11 +73,10 @@ form {
   padding: 0.6rem 1.2rem;
   color: #263238;
   font-weight: 500;
-  font-size: .7em;
+  font-size: 0.7em;
   letter-spacing: 0.5px;
   transition: 0.3s;
   font-family: $text-font;
-
 }
 
 textarea.input {
@@ -106,13 +106,13 @@ textarea.input {
   transform: translateY(0);
 }
 
-.btn-3{
+.btn-3 {
   position: relative;
   top: -120px;
   left: 500px;
   padding: 0.6rem 1.3rem;
   background-color: #fff;
-  border: 1px solid $bg-colour;
+  border: 1px solid $bg-color;
   font-size: 0.95rem;
   line-height: 1;
   border-radius: 25px;
@@ -121,9 +121,6 @@ textarea.input {
   transition: 0.3s;
   margin: 0;
 }
-
-
-
 
 .input-container span {
   position: absolute;
@@ -186,7 +183,6 @@ textarea {
   border-left: none;
   border-right: none;
   border-bottom: 1px solid black;
-  
 }
 .error {
   margin-left: 10px;
