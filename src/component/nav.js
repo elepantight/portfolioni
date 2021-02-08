@@ -13,7 +13,7 @@ function Navigation() {
       <div className="navbar">
         <Link to="#" className="menu-bars">
           <img
-            className="menu_img"
+            className="menu-open"
             src={require("./../images/MENY.svg")}
             alt="img"
             onClick={showSidebar}
@@ -25,7 +25,7 @@ function Navigation() {
           <li className="navbar-toggle">
             <Link to="#" className="menu-bars">
               <img
-                className="menu_img"
+                className="menu-close"
                 src={require("./../images/MENYX.svg")}
                 alt="img"
               />
