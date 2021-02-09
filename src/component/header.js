@@ -18,6 +18,7 @@ function Header() {
          </div>
        </div>
      </div>
+     
      <div className="header_image">
      <img
                 className="header-image"
@@ -25,8 +26,6 @@ function Header() {
                 alt="img"
               />
      </div>
-
-
     </header>
   );
 }

@@ -113,29 +113,23 @@ text-decoration: none;
   left: 10px;
 }
 
-.twitter-icon{
+.linked-icon{
   position: relative;
-  left: -20px;
+  left: 10px;
   top: 200px;
   width: 30%;
 }
 
 .github-icon{
   position: relative;
-  left: -55px;
+  left: -20px;
   top: 200px;
-  width: 30%;
-}
-.insta-icon{
-  position: relative;
-  left: 120px;
-  top: 125px;
   width: 30%;
 }
 
 @media only screen 
 and (min-width : 1824px) {
-   .github-icon, .twitter-icon {
+   .github-icon {
     top: 11em;
     justify-content: center;
     align-items: center;
@@ -144,8 +138,8 @@ and (min-width : 1824px) {
 }
 @media only screen 
 and (min-width : 1824px) {
-  .insta-icon{
-    top: 8.7em;
+  .linked-icon{
+    top: 10.9em;
     justify-content: center;
     align-items: center
   }

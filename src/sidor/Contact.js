@@ -26,8 +26,10 @@ export default function ContactUs() {
     e.target.reset();
   }
 
-  return (
+  return (<>
+
     <section>
+  
       <div styles={{ backgroundImage: `url(${background})` }}></div>
       <div className="contact-form" onSubmit={sendEmail}>
         <form action="index.html">
@@ -40,7 +42,7 @@ export default function ContactUs() {
             startDelay={100}
             cursorColor="#197acf"
             multiText={[
-              "Enter your contact details bellow.",
+              "Enter your contact details below.",
               "Validated with mailchimp",
             ]}
             typeSpeed={100}
@@ -80,5 +82,6 @@ export default function ContactUs() {
         </form>
       </div>
     </section>
+    </>
   );
 }

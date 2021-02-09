@@ -34,6 +34,7 @@ function Navigation() {
           </li>
           {SidebarData.map((item, index) => {
             return (
+
               <li key={index} className={item.cName}>
                 <Link to={item.path}>
                   <span className="menu-span">{item.title}</span>
@@ -43,22 +44,18 @@ function Navigation() {
           })}
           <Link to="#" className="menu-bars">
             <img
-              className="twitter-icon"
-              src={require("./../images/twitter.svg")}
+              className="linked-icon"
+              src={require("./../images/linkedin.svg")}
               alt="img"
+              href="https://github.com/elepantight/homefair"
+              target="_blank"
+              rel="noopener noreferrer"
             />
           </Link>
           <Link to="#" className="menu-bars">
             <img
               className="github-icon"
               src={require("./../images/github.svg")}
-              alt="img"
-            />
-          </Link>
-          <Link to="#" className="menu-bars">
-            <img
-              className="insta-icon"
-              src={require("./../images/instagram.svg")}
               alt="img"
             />
           </Link>
