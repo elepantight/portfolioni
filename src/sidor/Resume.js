@@ -49,7 +49,7 @@ export default function SimpleCard() {
               color="textSecondary"
               gutterBottom
             >
-              Noroff
+              NOROFF
             </Typography>
             <Typography className={classes.pos} color="textSecondary">
               2018-2020
@@ -66,7 +66,7 @@ export default function SimpleCard() {
               color='#197acf'
               gutterBottom
             >
-              Subway Norge
+              SUBWAY  NORGE
             </Typography>
             <Typography className={classes.pos} color="textSecondary">
               2019-Present
@@ -84,7 +84,7 @@ export default function SimpleCard() {
               color="textSecondary"
               gutterBottom
             >
-              Jensens Bøfhus
+              JENSENS BØFHUS
             </Typography>
             <Typography className={classes.pos} color="textSecondary">
               2017-Present
