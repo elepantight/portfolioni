@@ -14,6 +14,7 @@
     "@testing-library/user-event": "^7.1.2",
     "axios": "^0.21.1",
     "browser-sync": "^2.26.13",
+    "elliptic": "^6.5.4",
     "emailjs-com": "^2.6.3",
     "font-awesome": "^4.7.0",
     "immer": "^8.0.1",
