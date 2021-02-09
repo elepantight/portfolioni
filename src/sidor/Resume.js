@@ -1,34 +1,38 @@
 import React from "react";
 import { makeStyles } from "@material-ui/core/styles";
 import Card from "@material-ui/core/Card";
-import CardActions from "@material-ui/core/CardActions";
 import CardContent from "@material-ui/core/CardContent";
-import Button from "@material-ui/core/Button";
 import Typography from "@material-ui/core/Typography";
 
 const useStyles = makeStyles({
   root: {
+    cursor: 'pointer',
     width: 200,
     height: 200,
     margin: 10,
     backgroundColor: '#C3CDD7',
-  },
+    "&:hover, &.Mui-focusVisible": {
+      transition: '0.3s',
+      backgroundColor: '#f3f4f4',
+  }},
   title: {
     fontSize: 18,
     fontWeight: 800,
     fontFamily: "Quicksand",
-    color: '#197acf',
+    color: '#0F3F69',
   },
   second: {
+    fontSize: 18,
     fontFamily: "Quicksand",
     justifyContent: 'center',
     display: 'flex',
     alignItems: 'center',
-    marginTop: 45,
+    marginTop: 15,
   },
   pos: {
     marginBottom: 12,
     fontSize: 12,
+    fontFamily: 'Raleway',
   },
 });
 
