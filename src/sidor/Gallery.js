@@ -1,12 +1,20 @@
 import React, { Component } from "react";
+import Scroll from "./../component/scroll";
 
 export default class Portfolio extends Component {
   render() {
     return (
       <>
         <div className="img-column">
-          {" "}
+        <Scroll showBelow={250} />
           <div className="card-row-1">
+          <div className="img-card">
+              <img
+                className="images"
+                src={require("./../images/rubiksgun.svg")}
+                alt="img"
+              />
+            </div>
           <div className="img-card">
               <img
                 className="images"
@@ -18,13 +26,6 @@ export default class Portfolio extends Component {
               <img
                 className="images"
                 src={require("./../images/samuraj.svg")}
-                alt="img"
-              />
-            </div>
-            <div className="img-card">
-              <img
-                className="images"
-                src={require("./../images/Oliver.svg")}
                 alt="img"
               />
             </div>
@@ -89,41 +90,6 @@ export default class Portfolio extends Component {
               />
             </div>
             <div className="card-row-4">
-              <div className="img-card">
-                <img
-                  className="images"
-                  src={require("./../images/locked.svg")}
-                  alt="img"
-                />
-              </div>
-              <div className="img-card">
-                <img
-                  className="images"
-                  src={require("./../images/Elonmusk.svg")}
-                  alt="img"
-                />
-              </div>
-              <div className="img-card">
-                <img
-                  className="images"
-                  src={require("./../images/trikk.svg")}
-                  alt="img"
-                />
-              </div>
-              <div className="img-card">
-                <img
-                  className="images"
-                  src={require("./../images/background.svg")}
-                  alt="img"
-                />
-              </div>
-              <div className="img-card">
-                <img
-                  className="images"
-                  src={require("./../images/background-2.svg")}
-                  alt="img"
-                />
-              </div>
             </div>
           </div>
         </div>

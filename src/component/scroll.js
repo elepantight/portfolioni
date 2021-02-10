@@ -1,22 +1,16 @@
 import React, { useState, useEffect } from "react";
 import { makeStyles } from "@material-ui/core/styles";
-import ExpandLessIcon from '@material-ui/icons/ExpandLess';
-import IconButton from "@material-ui/core/IconButton";
 
 
 const useStyles = makeStyles((theme) => ({
     toTop: {
+        width: 80,
         zIndex: 2,
         position: 'fixed',
         bottom: '2vh',
-        backgroundColor: '#197acf',
         color: '#C3CDD7',
-        "&:hover, &.Mui-focusVisible": {
-            transition: '0.3s',
-            color: '#0F3F69',
-            backgroundColor: ' #DCDCDC'
-        },
         right: '5%',
+        cursor: 'pointer',
     }
 }))
 
@@ -46,11 +40,12 @@ const Scroll = (showBelow) => {
     };
 
     return (
-        <div>
-            
-            <IconButton onClick={handleClick} className={classes.toTop}>
-                <ExpandLessIcon />
-            </IconButton>
+        <div className="backToTop">
+                      <img
+            src={require("./../images/meteor.svg")}
+            alt="img"
+            onClick={handleClick} className={classes.toTop}
+          />
 
 </div>
     );

@@ -45,12 +45,12 @@
 .nav-menu.active {
   left: 0;
   transition: 250ms;
+
   animation-name: menuSlide;
-
-
   animation-duration: 1s; 
   animation-fill-mode: both; 
   animation-timing-function: ease-in-out; 
+  -webkit-animation-name: menuSlide;
   -webkit-animation-duration: 1s;
   -webkit-animation-timing-function: ease-in-out;
   -webkit-animation-fill-mode: both;

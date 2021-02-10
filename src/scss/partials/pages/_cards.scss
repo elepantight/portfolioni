@@ -1,7 +1,9 @@
 .row-card {
   display: flex;
   justify-content: right;
+  -webkit-justify-content:right;
   align-items: center;
+  -webkit-align-items: center;
   min-height: 100vh;
   margin-top: 100px;
 }
@@ -11,7 +13,9 @@ and (min-width : 1824px) {
     display: flex;
     top: 9em;
     justify-content: center;
+    -webkit-justify-content:center;
     align-items: center;
+    -webkit-align-items:center;
 }
 }
 

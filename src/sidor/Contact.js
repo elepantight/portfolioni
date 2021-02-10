@@ -42,6 +42,7 @@ export default function ContactUs() {
             startDelay={100}
             cursorColor="#197acf"
             multiText={[
+              "I know meteorites are falling",
               "Enter your contact details below.",
               "Validated with mailchimp",
             ]}
