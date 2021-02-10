@@ -106,20 +106,20 @@ textarea.input {
   transform: translateY(0);
 }
 
-.btn-3 {
+.btn-contact {
+  clip-path: polygon(0% 20%, 60% 20%, 60% 0%, 100% 50%, 60% 100%, 60% 80%, 0% 80%);
   position: relative;
   top: -120px;
   left: 500px;
-  padding: 0.6rem 1.3rem;
-  background-color: #fff;
-  border: 1px solid $bg-color;
+  padding: 1rem 1.3rem;
+  background-color: $font-blue;
+  color: $bg-color;
   font-size: 0.95rem;
-  line-height: 1;
-  border-radius: 25px;
   outline: none;
   cursor: pointer;
   transition: 0.3s;
   margin: 0;
+  text-transform: uppercase;
 }
 
 .input-container span {

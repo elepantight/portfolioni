@@ -79,7 +79,7 @@ export default function ContactUs() {
             <label htmlFor=""></label>
             <span></span>
           </div>
-          <input type="submit" value="Send" className="btn btn-3" />
+          <input type="submit" value="Send" className="btn btn-contact" />
         </form>
       </div>
     </section>

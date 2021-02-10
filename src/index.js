@@ -2,7 +2,6 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
-import { ThemeProvider, createMuiTheme } from '@material-ui/core/styles';
 
 import Navigation from './component/nav';
 import Frontpage from './sidor/Frontpage';
