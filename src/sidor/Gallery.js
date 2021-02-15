@@ -10,6 +10,7 @@ export default class Portfolio extends Component {
           <div className="card-row-1">
           <div className="img-card">
               <img
+              
                 className="images"
                 src={require("./../images/rubiksgun.svg")}
                 alt="img"
@@ -31,6 +32,7 @@ export default class Portfolio extends Component {
             </div>
             <div className="img-card">
               <img
+              loading="lazy"
                 className="images"
                 src={require("./../images/viva-logo.svg")}
                 alt="img"
@@ -38,6 +40,7 @@ export default class Portfolio extends Component {
             </div>
             <div className="img-card">
               <img
+              loading="lazy"
                 className="images"
                 src={require("./../images/blacKnWhite.svg")}
                 alt="img"
@@ -46,6 +49,7 @@ export default class Portfolio extends Component {
             <div className="card-row-2">
               <div className="img-card">
                 <img
+                loading="lazy"
                   className="images"
                   src={require("./../images/dudes.svg")}
                   alt="img"
@@ -53,6 +57,7 @@ export default class Portfolio extends Component {
               </div>
               <div className="img-card">
                 <img
+                loading="lazy"
                   className="images"
                   src={require("./../images/2d.svg")}
                   alt="img"
@@ -60,6 +65,7 @@ export default class Portfolio extends Component {
               </div>
               <div className="img-card">
                 <img
+                loading="lazy"
                   className="images"
                   src={require("./../images/mumin.svg")}
                   alt="img"
