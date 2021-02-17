@@ -1,22 +1,21 @@
 .row-card {
   display: flex;
   justify-content: right;
-  -webkit-justify-content:right;
+  -webkit-justify-content: right;
   align-items: center;
   -webkit-align-items: center;
   min-height: 100vh;
   margin-top: 100px;
 }
-@media only screen 
-and (min-width : 1824px) {
-  .row-card{
+@media only screen and (min-width: 1824px) {
+  .row-card {
     display: flex;
     top: 9em;
     justify-content: center;
-    -webkit-justify-content:center;
+    -webkit-justify-content: center;
     align-items: center;
-    -webkit-align-items:center;
-}
+    -webkit-align-items: center;
+  }
 }
 
 .container {
@@ -25,6 +24,7 @@ and (min-width : 1824px) {
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
+  
 }
 
 .container .card {
@@ -39,6 +39,7 @@ and (min-width : 1824px) {
   box-shadow: 0 20px 50px $box-shadow;
   overflow: hidden;
   border-radius: 30px;
+  
 }
 .container .card::before {
   content: "";
@@ -48,6 +49,7 @@ and (min-width : 1824px) {
   bottom: 2px;
   width: 50%;
   pointer-events: none;
+  opacity: 0;
 }
 
 .container .card .content {

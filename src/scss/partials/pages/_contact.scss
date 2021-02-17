@@ -1,9 +1,10 @@
 .contact-form {
+  height: 800px;
   background-color: #c3cdd7;
   font-family: $text-font;
   font-size: 2em;
   color: $text-colour;
-  margin-top: 10vh;
+  margin-top: 1vh;
   margin-bottom: 10vh;
   clip-path: polygon(
     0% 0%,
@@ -82,7 +83,6 @@ form {
 textarea.input {
   padding: 0.8rem 1.2rem;
   min-height: 50px;
-  border-radius: 22px;
   resize: none;
   overflow-y: auto;
 }
@@ -107,21 +107,44 @@ textarea.input {
 }
 
 .btn-contact {
-  clip-path: polygon(0% 20%, 60% 20%, 60% 0%, 100% 50%, 60% 100%, 60% 80%, 0% 80%);
   position: relative;
-  top: -120px;
-  left: 500px;
+  left: 25%;
+  top: 20px;
   padding: 1rem 1.3rem;
-  background-color: $font-blue;
+  background:none;
+  border: none;
   color: $bg-color;
-  font-size: 0.95rem;
-  outline: none;
+  font-family: $title-font;
+  font-weight: bold;
+  font-size: 2rem;
   cursor: pointer;
+  border: 2px solid $bg-color;
+  border-radius: .5em;
   transition: 0.3s;
+  outline: none;
+  text-align: center;
+  width: 10em;
   margin: 0;
   text-transform: uppercase;
+
+  &:before {
+    position: absolute;
+    content: '';
+    background: $dark-blue;
+    height: 100%;
+    width: 100%;
+    top: .5em;
+    left: .5em;
+    z-index: -1;
+    border-radius: .5em;
+  }
 }
 
+.button_text{
+  text-align: center;
+  font-weight: bold;
+  clip-path: circle(0% at 50% 50%);
+}
 .input-container span {
   position: absolute;
   top: 10;

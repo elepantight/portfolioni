@@ -1,8 +1,28 @@
-import React, { Component } from "react";
+import React, {  useRef, useEffect } from "react";
 import Scroll from "./../component/scroll";
 
-export default class Portfolio extends Component {
-  render() {
+import {TweenMax, Power1, Power2, Power3, Bounce, Elastic} from 'gsap';
+
+
+
+
+function Portfolio () {
+  let logoItem = useRef(null);
+
+useEffect(() => {
+  console.log(logoItem);
+  TweenMax.to(
+    logoItem,
+    1,
+    {
+      opacity:1,
+      y: 50,
+      ease: Power3.easeOut
+    }
+  )
+}, [])
+
+ 
     return (
       /* should change row with container and css */
       <div className="header-box">
@@ -21,13 +41,14 @@ export default class Portfolio extends Component {
         <div className="row-card">
           {" "}
           {/* container */}
-          <div className="container">
+          <div className="container" ref={el => {logoItem = el}}>
             {" "}
             {/*row */}
             <div className="card">
               <div className="content">
                 <h2>Game Of Thrones Board Game</h2>
                 <img
+                
                   className="card-img"
                   src={require("./../images/GOT-start.jpg")}
                   alt="img"
@@ -36,7 +57,7 @@ export default class Portfolio extends Component {
                 <p>Semester Project. Board Game made with JavaScript</p>
 
                 <a
-                  href="https://github.com/elepantight/homefair"
+                  href="https://github.com/elepantight/GameOfThronesBoardGame"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="btn btn-1"
@@ -297,5 +318,6 @@ export default class Portfolio extends Component {
         </div>
       </div>
     );
-  }
 }
+
+export default Portfolio;

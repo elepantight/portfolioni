@@ -1,4 +1,7 @@
-import React from "react";
+import React, { useRef, useEffect } from "react";
+
+import { TweenMax, Power1, Power2, Power3, Bounce, Elastic } from "gsap";
+
 import { makeStyles } from "@material-ui/core/styles";
 import Card from "@material-ui/core/Card";
 import CardContent from "@material-ui/core/CardContent";
@@ -6,43 +9,60 @@ import Typography from "@material-ui/core/Typography";
 
 const useStyles = makeStyles({
   root: {
-    cursor: 'pointer',
+    cursor: "pointer",
     width: 200,
     height: 200,
     margin: 10,
-    backgroundColor: '#C3CDD7',
+    backgroundColor: "#C3CDD7",
     "&:hover, &.Mui-focusVisible": {
-      transition: '0.3s',
-      backgroundColor: '#f3f4f4',
-  }},
+      transition: "0.3s",
+      backgroundColor: "#f3f4f4",
+    },
+  },
   title: {
     fontSize: 18,
     fontWeight: 800,
     fontFamily: "Quicksand",
-    color: '#0F3F69',
+    color: "#0F3F69",
   },
   second: {
     fontSize: 18,
     fontFamily: "Quicksand",
-    justifyContent: 'center',
-    display: 'flex',
-    alignItems: 'center',
+    justifyContent: "center",
+    display: "flex",
+    alignItems: "center",
     marginTop: 15,
   },
   pos: {
     marginBottom: 12,
     fontSize: 12,
-    fontFamily: 'Raleway',
+    fontFamily: "Raleway",
   },
 });
 
 export default function SimpleCard() {
+  let logoItem = useRef(null);
+
   const classes = useStyles();
+
+  useEffect(() => {
+    console.log(logoItem);
+    TweenMax.to(logoItem, 1, {
+      opacity: 1,
+      y: -50,
+      ease: Elastic.easeInOut,
+    });
+  }, []);
 
   return (
     <div className="resume-container">
       <div className="resume-cards">
-      <Card className={classes.root}>
+        <Card
+          ref={(el) => {
+            logoItem = el;
+          }}
+          className={classes.root}
+        >
           <CardContent>
             <Typography
               className={classes.title}
@@ -54,25 +74,28 @@ export default function SimpleCard() {
             <Typography className={classes.pos} color="textSecondary">
               2018-2020
             </Typography>
-            <Typography className={classes.second} variant="body2" component="p">
+            <Typography
+              className={classes.second}
+              variant="body2"
+              component="p"
+            >
               FRONTEND DEVELOPER
             </Typography>
           </CardContent>
         </Card>
         <Card className={classes.root}>
           <CardContent>
-            <Typography
-              className={classes.title}
-              color='#197acf'
-              gutterBottom
-            >
-              SUBWAY  NORGE
+            <Typography className={classes.title} color="#197acf" gutterBottom>
+              SUBWAY NORGE
             </Typography>
             <Typography className={classes.pos} color="textSecondary">
               2019-Present
             </Typography>
-            <Typography className={classes.second}
-            variant="body2" component="p">
+            <Typography
+              className={classes.second}
+              variant="body2"
+              component="p"
+            >
               IT-TECHNICIAN
             </Typography>
           </CardContent>
@@ -89,7 +112,11 @@ export default function SimpleCard() {
             <Typography className={classes.pos} color="textSecondary">
               2017-Present
             </Typography>
-            <Typography className={classes.second} variant="body2" component="p">
+            <Typography
+              className={classes.second}
+              variant="body2"
+              component="p"
+            >
               KITCHEN EMPLOYEE
             </Typography>
           </CardContent>
@@ -107,7 +134,11 @@ export default function SimpleCard() {
             <Typography className={classes.pos} color="textSecondary">
               2015-2016
             </Typography>
-            <Typography  className={classes.second} variant="body2" component="p">
+            <Typography
+              className={classes.second}
+              variant="body2"
+              component="p"
+            >
               WAREHOUSE EMPLOYEE
             </Typography>
           </CardContent>
@@ -126,7 +157,11 @@ export default function SimpleCard() {
             <Typography className={classes.pos} color="textSecondary">
               2014-2016
             </Typography>
-            <Typography className={classes.second} variant="body2" component="p">
+            <Typography
+              className={classes.second}
+              variant="body2"
+              component="p"
+            >
               COMPUTER TECHNOLOGY
             </Typography>
           </CardContent>
@@ -143,7 +178,11 @@ export default function SimpleCard() {
             <Typography className={classes.pos} color="textSecondary">
               2014-2016
             </Typography>
-            <Typography className={classes.second} variant="body2" component="p">
+            <Typography
+              className={classes.second}
+              variant="body2"
+              component="p"
+            >
               COMPUTER COORDINATION AND SUPPORT
             </Typography>
           </CardContent>
@@ -160,7 +199,11 @@ export default function SimpleCard() {
             <Typography className={classes.pos} color="textSecondary">
               2014-2016
             </Typography>
-            <Typography className={classes.second} variant="body2" component="p">
+            <Typography
+              className={classes.second}
+              variant="body2"
+              component="p"
+            >
               ADMINISTRATION OF NETWORK AND SERVER EQUIPMENT
             </Typography>
           </CardContent>
@@ -177,7 +220,11 @@ export default function SimpleCard() {
             <Typography className={classes.pos} color="textSecondary">
               2014-2016
             </Typography>
-            <Typography className={classes.second} variant="body2" component="p">
+            <Typography
+              className={classes.second}
+              variant="body2"
+              component="p"
+            >
               NETWORK ADMINISTRATION
             </Typography>
           </CardContent>
@@ -196,7 +243,11 @@ export default function SimpleCard() {
             <Typography className={classes.pos} color="textSecondary">
               2014-2016
             </Typography>
-            <Typography className={classes.second} variant="body2" component="p">
+            <Typography
+              className={classes.second}
+              variant="body2"
+              component="p"
+            >
               NETWORK TECHNOLOGY
             </Typography>
           </CardContent>
@@ -214,7 +265,11 @@ export default function SimpleCard() {
             <Typography className={classes.pos} color="textSecondary">
               2013-2014
             </Typography>
-            <Typography className={classes.second} variant="body2" component="p">
+            <Typography
+              className={classes.second}
+              variant="body2"
+              component="p"
+            >
               WAREHOUSE EMPLOYEE
             </Typography>
           </CardContent>
@@ -231,7 +286,11 @@ export default function SimpleCard() {
             <Typography className={classes.pos} color="textSecondary">
               2012-2012
             </Typography>
-            <Typography className={classes.second} variant="body2" component="p">
+            <Typography
+              className={classes.second}
+              variant="body2"
+              component="p"
+            >
               WAREHOUSE EMPLOYEE
             </Typography>
           </CardContent>
@@ -248,7 +307,11 @@ export default function SimpleCard() {
             <Typography className={classes.pos} color="textSecondary">
               2008-2011
             </Typography>
-            <Typography className={classes.second} variant="body2" component="p">
+            <Typography
+              className={classes.second}
+              variant="body2"
+              component="p"
+            >
               SOCIAL SCIENCE AND ECONOMICS
             </Typography>
           </CardContent>
