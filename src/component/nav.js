@@ -3,6 +3,14 @@ import { Link } from "react-router-dom";
 
 import { SidebarData } from "./sideBarData";
 
+
+import MENYX from './../images/MENYX.svg';
+import MENY from './../images/MENY.svg';
+import LINKEDIN from './../images/linkedin.svg';
+import GITHUB from './../images/github.svg';
+
+
+
 function Navigation() {
   const [sidebar, setSidebar] = useState(false);
 
@@ -14,7 +22,7 @@ function Navigation() {
         <Link to="#" className="menu-bars">
           <img
             className="menu-open"
-            src={require("./../images/MENY.svg")}
+            src={MENY}
             alt="img"
             onClick={showSidebar}
           />
@@ -27,7 +35,7 @@ function Navigation() {
             <Link to="#" className="menu-bars">
               <img
                 className="menu-close"
-                src={require("./../images/MENYX.svg")}
+                src={MENYX}
                 alt="img"
               />
             </Link>
@@ -45,9 +53,9 @@ function Navigation() {
           <Link to="#" className="menu-bars">
             <img
               className="linked-icon"
-              src={require("./../images/linkedin.svg")}
+              src={LINKEDIN}
               alt="img"
-              href="https://github.com/elepantight/homefair"
+              href="https://www.linkedin.com/in/arvid-hallberg-410161182/"
               target="_blank"
               rel="noopener noreferrer"
             />
@@ -55,7 +63,7 @@ function Navigation() {
           <Link to="#" className="menu-bars">
             <img
               className="github-icon"
-              src={require("./../images/github.svg")}
+              src={GITHUB}
               alt="img"
             />
           </Link>

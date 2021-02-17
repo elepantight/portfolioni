@@ -3,7 +3,7 @@ import React, {useRef, useEffect} from "react";
 import {TweenMax, Power1, Power2, Power3, Bounce, Elastic, } from 'gsap';
 
 
-
+import PLANET from './../images/planet_grey.svg'
 function Header() {
 
   let logoItem = useRef(null);
@@ -47,7 +47,7 @@ useEffect(() => {
      <div className="header_image">
      <img
                 className="header-image"
-                src={require("./../images/planet_grey.svg")}
+                src={PLANET}
                 alt="img"
               />
      </div>

@@ -2,6 +2,8 @@ import React, { useState, useEffect } from "react";
 import { makeStyles } from "@material-ui/core/styles";
 
 
+import METEOR from './../images/meteor.svg';
+
 const useStyles = makeStyles((theme) => ({
     toTop: {
         width: 80,
@@ -42,7 +44,7 @@ const Scroll = (showBelow) => {
     return (
         <div className="backToTop">
                       <img
-            src={require("./../images/meteor.svg")}
+            src={METEOR}
             alt="img"
             onClick={handleClick} className={classes.toTop}
           />

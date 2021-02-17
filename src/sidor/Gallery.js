@@ -1,6 +1,22 @@
 import React, { Component } from "react";
 import Scroll from "./../component/scroll";
 
+
+
+import RUBIK from './../images/rubiksgun.svg';
+import GUNMAN from './../images/gunman.svg';
+import SAMURAJ from './../images/samuraj.svg';
+import VIVALOGO from './../images/viva-logo.svg';
+import BLACKWHITE from './../images/blacKnWhite.svg';
+import DUDES from './../images/dudes.svg';
+import TWOD from './../images/2d.svg';
+import MUMIN from './../images/mumin.svg';
+import DRAGONFLY from './../images/dragonfly.svg';
+import GUZZ from './../images/guzz.svg';
+import FTP from './../images/ftp.svg';
+
+
+
 export default class Portfolio extends Component {
   render() {
     return (
@@ -12,29 +28,21 @@ export default class Portfolio extends Component {
               <img
               
                 className="images"
-                src={require("./../images/rubiksgun.svg")}
+                src={RUBIK}
                 alt="img"
               />
             </div>
           <div className="img-card">
               <img
                 className="images"
-                src={require("./../images/gunman.svg")}
+                src={GUNMAN}
                 alt="img"
               />
             </div>
             <div className="img-card">
               <img
                 className="images"
-                src={require("./../images/samuraj.svg")}
-                alt="img"
-              />
-            </div>
-            <div className="img-card">
-              <img
-              loading="lazy"
-                className="images"
-                src={require("./../images/viva-logo.svg")}
+                src={SAMURAJ}
                 alt="img"
               />
             </div>
@@ -42,7 +50,15 @@ export default class Portfolio extends Component {
               <img
               loading="lazy"
                 className="images"
-                src={require("./../images/blacKnWhite.svg")}
+                src={VIVALOGO}
+                alt="img"
+              />
+            </div>
+            <div className="img-card">
+              <img
+              loading="lazy"
+                className="images"
+                src={BLACKWHITE}
                 alt="img"
               />
             </div>
@@ -51,7 +67,7 @@ export default class Portfolio extends Component {
                 <img
                 loading="lazy"
                   className="images"
-                  src={require("./../images/dudes.svg")}
+                  src={DUDES}
                   alt="img"
                 />
               </div>
@@ -59,7 +75,7 @@ export default class Portfolio extends Component {
                 <img
                 loading="lazy"
                   className="images"
-                  src={require("./../images/2d.svg")}
+                  src={TWOD}
                   alt="img"
                 />
               </div>
@@ -67,7 +83,7 @@ export default class Portfolio extends Component {
                 <img
                 loading="lazy"
                   className="images"
-                  src={require("./../images/mumin.svg")}
+                  src={MUMIN}
                   alt="img"
                 />
               </div>
@@ -77,21 +93,21 @@ export default class Portfolio extends Component {
             <div className="img-card">
               <img
                 className="images"
-                src={require("./../images/dragonfly.svg")}
+                src={DRAGONFLY}
                 alt="img"
               />
             </div>
             <div className="img-card">
               <img
                 className="images"
-                src={require("./../images/guzz.svg")}
+                src={GUZZ}
                 alt="img"
               />
             </div>
             <div className="img-card">
               <img
                 className="images"
-                src={require("./../images/ftp.svg")}
+                src={FTP}
                 alt="img"
               />
             </div>

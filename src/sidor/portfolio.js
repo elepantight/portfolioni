@@ -4,7 +4,19 @@ import Scroll from "./../component/scroll";
 import {TweenMax, Power1, Power2, Power3, Bounce, Elastic} from 'gsap';
 
 
-
+import GOT from './../images/GOT-start.jpg';
+import HOMEFAIR from './../images/homefair.jpg';
+import BESSEGGEN from './../images/beseggen.jpg';
+import SPORTIF from './../images/sportif.jpg';
+import RICKMORTY from './../images/rick.jpg';
+import GAME from './../images/game.jpg';
+import COOLBEANS from './../images/cool.jpg';
+import SPORTIF2 from './../images/sportif2.jpg';
+import BESSEGGEN2 from './../images/bestype.jpg';
+import PORTFOLIO from './../images/portfolio.jpg';
+import BERGENLODGE from './../images/bergenlodge.jpg';
+import TRA from './../images/Tra.PNG';
+import VIVA from './../images/viva.jpg';
 
 function Portfolio () {
   let logoItem = useRef(null);
@@ -27,14 +39,14 @@ useEffect(() => {
       /* should change row with container and css */
       <div className="header-box">
         <Scroll showBelow={250} />
-        <div class="animated-title">
-          <div class="text-top">
+        <div className="animated-title">
+          <div className="text-top">
             <div>
               <span>Recent</span>
               <span>Projects&</span>
             </div>
           </div>
-          <div class="text-bottom">
+          <div className="text-bottom">
             <div>Prototypes</div>
           </div>
         </div>
@@ -50,7 +62,7 @@ useEffect(() => {
                 <img
                 
                   className="card-img"
-                  src={require("./../images/GOT-start.jpg")}
+                  src={GOT}
                   alt="img"
                 />
                 <h3>JavaScript</h3>
@@ -71,7 +83,7 @@ useEffect(() => {
                 <h2>HomeFair Website</h2>
                 <img
                   className="card-img"
-                  src={require("./../images/homefair.jpg")}
+                  src={HOMEFAIR} // FIGURE OUT WHY src={require("./../images/homefair.jpg")} ISNT WORKING
                   alt="img"
                 />
                 <h3>HTML/CSS</h3>
@@ -92,7 +104,7 @@ useEffect(() => {
                 <h2>Besseggen Arkitekter</h2>
                 <img
                   className="card-img"
-                  src={require("./../images/beseggen.jpg")}
+                  src={BESSEGGEN}
                   alt="img"
                 />
                 <h3>HTML/CSS</h3>
@@ -113,7 +125,7 @@ useEffect(() => {
                 <h2>Sportif Unlimited</h2>
                 <img
                   className="card-img"
-                  src={require("./../images/sportif.jpg")}
+                  src={SPORTIF}
                   alt="img"
                 />
                 <h3>HTML/CSS</h3>
@@ -134,7 +146,7 @@ useEffect(() => {
                 <h2>Rick and Morty API</h2>
                 <img
                   className="card-img"
-                  src={require("./../images/rick.jpg")}
+                  src={RICKMORTY}
                   alt="img"
                 />
                 <h3>React.js</h3>
@@ -157,7 +169,7 @@ useEffect(() => {
                 <h2>Game App </h2>
                 <img
                   className="card-img"
-                  src={require("./../images/game.jpg")}
+                  src={GAME}
                   alt="img"
                 />
                 <h3>React.js</h3>
@@ -178,7 +190,7 @@ useEffect(() => {
                 <h2>Prototype Cool Beanz</h2>
                 <img
                   className="card-img"
-                  src={require("./../images/cool.jpg")}
+                  src={COOLBEANS}
                   alt="img"
                 />
                 <h3>Adobe Xd</h3>
@@ -198,7 +210,7 @@ useEffect(() => {
                 <h2>Sportif Unlimited</h2>
                 <img
                   className="card-img"
-                  src={require("./../images/sportif2.jpg")}
+                  src={SPORTIF2}
                   alt="img"
                 />
                 <h3>Adobe Xd</h3>
@@ -219,7 +231,7 @@ useEffect(() => {
                 <h2>Besseggen Arkitekter</h2>
                 <img
                   className="card-img"
-                  src={require("./../images/bestype.jpg")}
+                  src={BESSEGGEN2}
                   alt="img"
                 />
                 <h3>Adobe Xd</h3>
@@ -239,7 +251,7 @@ useEffect(() => {
                 <h2>Viva Sativa Movement</h2>
                 <img
                   className="card-img"
-                  src={require("./../images/viva.jpg")}
+                  src={VIVA}
                   alt="img"
                 />
                 <h3>Adobe Xd</h3>
@@ -259,7 +271,7 @@ useEffect(() => {
                 <h2>My Portfolio</h2>
                 <img
                   className="card-img"
-                  src={require("./../images/portfolio.jpg")}
+                  src={PORTFOLIO}
                   alt="img"
                 />
                 <h3>Adobe Xd</h3>
@@ -279,7 +291,7 @@ useEffect(() => {
                 <h2>Bergen Lodge</h2>
                 <img
                   className="card-img"
-                  src={require("./../images/bergenlodge.jpg")}
+                  src={BERGENLODGE}
                   alt="img"
                 />
                 <h3>Adobe Xd</h3>
@@ -299,7 +311,7 @@ useEffect(() => {
                 <h2>Trä och Miljö</h2>
                 <img
                   className="card-img"
-                  src={require("./../images/Tra.PNG")}
+                  src={TRA}
                   alt="img"
                 />
                 <h3>Adobe Xd</h3>
