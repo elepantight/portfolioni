@@ -77,7 +77,7 @@ and (min-width : 1824px) {
 
       h1 {
         font-family: $text-font;
-        color: $font-blue;
+        color: #c51f5d;
         font-size: 60px;
         -webkit-animation: mainFadeIn 2s forwards;
         -o-animation: mainFadeIn 2s forwards;
@@ -144,7 +144,7 @@ and (min-width : 1824px) {
         animation: secFadeIn 2s forwards;
         animation-delay: 4.3s;
         opacity: 0;
-        color: #c51f5d;
+        color: #f3f4f4;
         font-size: 12px;
         text-transform: uppercase;
         letter-spacing: 5px;

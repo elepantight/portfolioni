@@ -13,7 +13,7 @@ const useStyles = makeStyles({
     width: 200,
     height: 200,
     margin: 10,
-    backgroundColor: "#C3CDD7",
+    backgroundColor: "#243447",
     "&:hover, &.Mui-focusVisible": {
       transition: "0.3s",
       backgroundColor: "#f3f4f4",
@@ -23,7 +23,7 @@ const useStyles = makeStyles({
     fontSize: 18,
     fontWeight: 800,
     fontFamily: "Quicksand",
-    color: "#0F3F69",
+    color: "#c51f5d",
   },
   second: {
     fontSize: 18,
@@ -32,6 +32,7 @@ const useStyles = makeStyles({
     display: "flex",
     alignItems: "center",
     marginTop: 15,
+    color: '#141d26',
   },
   pos: {
     marginBottom: 12,

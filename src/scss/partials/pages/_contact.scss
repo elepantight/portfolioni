@@ -1,9 +1,8 @@
 .contact-form {
   height: 800px;
-  background-color: #c3cdd7;
+  background-color: #243447;
   font-family: $text-font;
   font-size: 2em;
-  color: $text-colour;
   margin-top: 1vh;
   margin-bottom: 10vh;
   clip-path: polygon(
@@ -20,7 +19,6 @@
 .form {
   width: 100%;
   max-width: 820px;
-  background-color: green;
   border-radius: 10px;
 
   z-index: 1000;
@@ -52,13 +50,7 @@ form {
   position: relative;
 }
 
-.title {
-  color: #263238;
-  font-weight: 500;
-  font-size: 2.5rem;
-  line-height: 1;
-  margin-bottom: 0.7rem;
-}
+
 
 .input-container {
   position: relative;
@@ -69,10 +61,10 @@ form {
 .input {
   width: 100%;
   outline: none;
-  border-bottom: 2px solid #fafafa;
+  border-bottom: 2px solid #141d26;
   background: none;
   padding: 0.6rem 1.2rem;
-  color: #263238;
+  color: #c51f5d;
   font-weight: 500;
   font-size: 0.7em;
   letter-spacing: 0.5px;
@@ -113,12 +105,12 @@ textarea.input {
   padding: 1rem 1.3rem;
   background:none;
   border: none;
-  color: $bg-color;
+  color: #c51f5d;
   font-family: $title-font;
   font-weight: bold;
   font-size: 2rem;
   cursor: pointer;
-  border: 2px solid $bg-color;
+  border: 2px solid #c51f5d;
   border-radius: .5em;
   transition: 0.3s;
   outline: none;
@@ -130,7 +122,7 @@ textarea.input {
   &:before {
     position: absolute;
     content: '';
-    background: $dark-blue;
+    background: #141d26;
     height: 100%;
     width: 100%;
     top: .5em;
@@ -196,7 +188,7 @@ textarea.input {
 }
 
 .text {
-  color: #333;
+  color: #141d26;
   margin: 1.5rem 0 2rem 0;
 }
 input,

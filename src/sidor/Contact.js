@@ -36,7 +36,7 @@ export default function ContactUs() {
           <TypeWriterEffect
             textStyle={{
               frontFamily: "$second-font",
-              color: "#0d3e69",
+              color: "#141d26",
               fontSize: "1em",
             }}
             startDelay={100}
