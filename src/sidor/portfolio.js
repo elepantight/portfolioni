@@ -105,6 +105,14 @@ useEffect(() => {
                 >
                   Github
                 </a>
+                <a
+                  href="https://homefair.netlify.app/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="btn btn-1"
+                >
+                  NETLIFY
+                </a>
               </div>
             </div>
             <div className="card">
@@ -125,6 +133,14 @@ useEffect(() => {
                   className="btn btn-1"
                 >
                   Github
+                </a>
+                <a
+                  href="https://besseggen.netlify.app/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="btn btn-1"
+                >
+                  NETLIFY
                 </a>
               </div>
             </div>
