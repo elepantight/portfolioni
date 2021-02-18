@@ -45,24 +45,25 @@ export default function SimpleCard() {
 
   const classes = useStyles();
 
-  useEffect(() => {
+ /* useEffect(() => {
     console.log(logoItem);
-    TweenMax.to(logoItem, 1, {
-      opacity: 1,
-      y: -50,
-      ease: Elastic.easeInOut,
-    });
-  }, []);
+    TweenMax.to(
+      logoItem,
+      1,
+      {
+        opacity: 1,
+        y: -50,
+        ease: Elastic.easeInOut,
+        stagger: 0.1,
+      },
+      "<0.5"
+    );
+  }, []); */
 
   return (
     <div className="resume-container">
       <div className="resume-cards">
-        <Card
-          ref={(el) => {
-            logoItem = el;
-          }}
-          className={classes.root}
-        >
+        <Card className={classes.root}>
           <CardContent>
             <Typography
               className={classes.title}
@@ -83,7 +84,9 @@ export default function SimpleCard() {
             </Typography>
           </CardContent>
         </Card>
-        <Card className={classes.root}>
+        <Card
+          className={classes.root}
+        >
           <CardContent>
             <Typography className={classes.title} color="#197acf" gutterBottom>
               SUBWAY NORGE
@@ -100,7 +103,12 @@ export default function SimpleCard() {
             </Typography>
           </CardContent>
         </Card>
-        <Card className={classes.root}>
+        <Card
+          className={classes.root}
+          ref={(el) => {
+            logoItem = el;
+          }}
+        >
           <CardContent>
             <Typography
               className={classes.title}

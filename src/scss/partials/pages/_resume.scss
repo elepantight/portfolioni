@@ -2,7 +2,19 @@
   margin-top: -50px;
   padding-bottom: 50px;
   margin-left: 50px;
+  animation: resumeAni 3s cubic-bezier(.42,0,.58,1) backwards;
 }
+
+
+@keyframes resumeAni {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0.5;
+  }
+}
+
 .resume-cards{
   display: flex;
   justify-content: center;

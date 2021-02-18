@@ -38,7 +38,7 @@ useEffect(() => {
          </div>
          <div className="second_title">
            <div className="block"></div>
-             <h4>FRONTEND LIKES DESIGN.</h4>
+             <h4> &lt;FRONTEND=&#123;LIKES DESIGN&#125;/&gt; </h4>
 
          </div>
        </div>

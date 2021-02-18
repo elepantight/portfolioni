@@ -43,7 +43,7 @@ useEffect(() => {
           <div className="text-top">
             <div>
               <span>Recent</span>
-              <span>Projects&</span>
+              <span>Projects &amp;</span>
             </div>
           </div>
           <div className="text-bottom">
@@ -75,6 +75,14 @@ useEffect(() => {
                   className="btn btn-1"
                 >
                   Github
+                </a>
+                <a
+                  href="https://gameofthronesboardgame.netlify.app/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="btn btn-1"
+                >
+                  NETLIFY
                 </a>
               </div>
             </div>
