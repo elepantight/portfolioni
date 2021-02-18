@@ -22,6 +22,7 @@
   width: 1100px;
   display: flex;
   justify-content: center;
+  -webkit-align-items: center;
   align-items: center;
   flex-wrap: wrap;
   
@@ -34,7 +35,9 @@
   background:#243447 ;
   display: flex;
   justify-content: center;
+ 
   align-items: center;
+  
   margin: 10px;
   box-shadow: 0 20px 50px $box-shadow;
   overflow: hidden;
