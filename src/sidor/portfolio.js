@@ -82,7 +82,7 @@ useEffect(() => {
                   rel="noopener noreferrer"
                   className="btn btn-1"
                 >
-                  NETLIFY
+                  live
                 </a>
               </div>
             </div>
@@ -111,7 +111,7 @@ useEffect(() => {
                   rel="noopener noreferrer"
                   className="btn btn-1"
                 >
-                  NETLIFY
+                  live
                 </a>
               </div>
             </div>
@@ -140,7 +140,7 @@ useEffect(() => {
                   rel="noopener noreferrer"
                   className="btn btn-1"
                 >
-                  NETLIFY
+                  live
                 </a>
               </div>
             </div>
