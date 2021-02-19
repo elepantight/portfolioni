@@ -131,7 +131,13 @@ textarea.input {
     border-radius: .5em;
   }
 }
-
+@media only screen     
+and (max-device-width : 724px) {
+  .btn-contact{
+    position: relative;
+    left: 0%;
+  }
+  }
 .button_text{
   text-align: center;
   font-weight: bold;

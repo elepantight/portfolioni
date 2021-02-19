@@ -1,4 +1,4 @@
-/* Animated lines */ 
+/* Animated lines */
 
 .vertical {
   position: absolute;
@@ -30,15 +30,14 @@
   }
 }
 
-@media only screen 
-and (min-width : 1824px) {
-  .vertical{
+@media only screen and (min-width: 1824px) {
+  .vertical {
     position: absolute;
     top: 19em;
     left: 32em;
+  }
 }
-}
-/* Animated lines */ 
+/* Animated lines */
 
 .container_header {
   width: 80%;
@@ -98,7 +97,8 @@ and (min-width : 1824px) {
           border-radius: 30px;
 
           background: #fdf3ea;
-          -webkit-animation: load 0.6s cubic-bezier(0.21, 0.85, 0.89, 0.06) forwards;
+          -webkit-animation: load 0.6s cubic-bezier(0.21, 0.85, 0.89, 0.06)
+            forwards;
           animation: popIn 0.8s cubic-bezier(0.21, 0.85, 0.89, 0.06) forwards;
           animation-delay: 3s;
           margin-left: 5px;
@@ -110,18 +110,17 @@ and (min-width : 1824px) {
       }
     }
 
-    @media only screen 
-and (min-width : 1824px) {
-  .container_header{
-    width: 80%;
-    margin-top: -200px;
-    height: 200px;
-  
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-}
+    @media only screen and (min-width: 1824px) {
+      .container_header {
+        width: 80%;
+        margin-top: -200px;
+        height: 200px;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+    }
 
     .second_title {
       width: 100%;
@@ -259,12 +258,12 @@ and (min-width : 1824px) {
   }
 }
 
-.header-image{
+.header-image {
   width: 500px;
   position: relative;
   left: 850px;
   padding-bottom: 100px;
-  animation: planetSlide 3s cubic-bezier(.24,.92,.52,.85) forwards;
+  animation: planetSlide 3s cubic-bezier(0.24, 0.92, 0.52, 0.85) forwards;
 }
 @keyframes planetSlide {
   0% {
@@ -278,11 +277,10 @@ and (min-width : 1824px) {
   }
 }
 
-@media only screen 
-and (min-width : 1824px) {
-  .header-image{
+@media only screen and (min-width: 1824px) {
+  .header-image {
     text-align: center;
     margin-left: 300px;
     width: 600px;
-}
+  }
 }
