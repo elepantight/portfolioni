@@ -68,17 +68,19 @@ and (min-width : 1824px) {
         width: 0%;
         height: 80px;
         border-radius: 30px;
-        background: #c51f5d;
+        background: $second-font;
         position: absolute;
         animation: mainBlock 2s cubic-bezier(0.74, 0.06, 0.4, 0.92) forwards;
         display: flex;
         animation-delay: 1.6s;
+        background-color: #c51f5d;
       }
 
       h1 {
-        font-family: $text-font;
+        font-family: $text-header;
         color: #c51f5d;
-        font-size: 60px;
+        font-size: 72px;
+        font-weight: bold;
         -webkit-animation: mainFadeIn 2s forwards;
         -o-animation: mainFadeIn 2s forwards;
         animation: mainFadeIn 2s forwards;
