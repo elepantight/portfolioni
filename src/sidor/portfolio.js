@@ -25,11 +25,11 @@ useEffect(() => {
   console.log(logoItem);
   TweenMax.to(
     logoItem,
-    1,
+    2,
     {
       opacity:1,
-      y: 50,
-      ease: Power3.easeOut
+      y: -250,
+      ease: Power1.easeIn
     }
   )
 }, [])
