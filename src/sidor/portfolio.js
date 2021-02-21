@@ -23,13 +23,24 @@ function Portfolio () {
 
 useEffect(() => {
   console.log(logoItem);
-  TweenMax.to(
+  TweenMax.from(
     logoItem,
-    2,
+    1,
     {
       opacity:1,
-      y: -250,
+      x: -1000,
+      y: 0,
+    }
+  )
+  TweenMax.to(
+    logoItem,
+    1,
+    {
+      opacity:1,
+      x: 0,
+      y: 0,
       ease: Power1.easeIn
+    
     }
   )
 }, [])
