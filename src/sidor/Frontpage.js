@@ -10,4 +10,4 @@ function Frontpage() {
 
 }
 
-export default Frontpage
+export default Frontpage;

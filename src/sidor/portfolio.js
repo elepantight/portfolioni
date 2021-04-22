@@ -17,9 +17,10 @@ import PORTFOLIO from './../images/portfolio.jpg';
 import BERGENLODGE from './../images/bergenlodge.jpg';
 import TRA from './../images/Tra.PNG';
 import VIVA from './../images/viva.jpg';
+import METANOIA from './../images/metanoia.PNG';
 
 function Portfolio () {
-  let logoItem = useRef(null);
+/*  let logoItem = useRef(null);
 
 useEffect(() => {
   console.log(logoItem);
@@ -40,10 +41,10 @@ useEffect(() => {
       x: 0,
       y: 0,
       ease: Power1.easeIn
-    
+    /* ref={el => {logoItem = el}} 
     }
   )
-}, [])
+}, []) */
 
  
     return (
@@ -64,9 +65,39 @@ useEffect(() => {
         <div className="row-card">
           {" "}
           {/* container */}
-          <div className="container" ref={el => {logoItem = el}}>
+          <div className="container">
             {" "}
             {/*row */}
+            <div className="card">
+              <div className="content">
+                <h2>Metanoia - Coming Soon</h2>
+                <img
+                
+                  className="card-img"
+                  src={METANOIA}
+                  alt="img"
+                />
+                <h3>Reactjs</h3>
+                <p>Coming Soon page for Metanoia</p>
+
+                <a
+                  href="https://github.com/elepantight/coming-soon"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="btn btn-1"
+                >
+                  Github
+                </a>
+                <a
+                  href="https://metanoi4.netlify.app/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="btn btn-1"
+                >
+                  live
+                </a>
+              </div>
+            </div>
             <div className="card">
               <div className="content">
                 <h2>Game Of Thrones Board Game</h2>
